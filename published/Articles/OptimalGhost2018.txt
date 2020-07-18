@@ -1,0 +1,921 @@
+Best objective 5.293500000000e+04, best bound 5.293500000000e+04, gap 0.0000%
+
+-----------------
+Round 1
+Points 2413
+Team Value 9996000
+Remaining budget 4000
+-----------------
+-----------------
+Captain Brodie Grundy with 95 points
+Vice Elliot Yeo with 109 points 
+Tom Doedee                     -   86 - $123900 - DEF  
+Kade Simpson                   -  150 - $516300 - DEF  
+Jack Crisp                     -   87 - $455300 - DEF  
+Jayden Short                   -   76 - $319900 - DEF  
+Jake Lloyd                     -  119 - $479900 - DEF  
+Elliot Yeo                     -  109 - $561300 - DEF  
+Lachlan Murphy                 -   32 - $102400 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -  130 - $537300 - MID  
+Timothy Kelly                  -  118 - $117300 - MID  
+Stephen Coniglio               -  129 - $452400 - MID  
+Tom Mitchell                   -  167 - $653500 - MID  
+Jaeger O'Meara                 -   82 - $315800 - MID  
+Angus Brayshaw                 -    0 - $316700 - MID  
+Lachie Hunter                  -  102 - $452300 - MID  
+Jack Macrae                    -  120 - $587800 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   96 - $102400 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -   95 - $534700 - RUC  
+Max Gawn                       -  139 - $503700 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   92 - $439100 - FWD  
+Tom Hawkins                    -   57 - $473700 - FWD  
+Luke Breust                    -   77 - $392200 - FWD  
+Bayley Fritsch                 -   60 - $117300 - FWD  
+Justin Westhoff                -  140 - $479600 - FWD  
+Josh Dunkley                   -   87 - $296900 - FWD  
+Jack Henry                     -    0 - $123900 - Sub-FWD (E)
+Jack Higgins                   -    0 - $130800 - Sub-FWD (E)
+
+-----------------
+Round 2
+Points 2324
+Team Value 9996000
+Remaining budget 4000
+-----------------
+-----------------
+Captain Brodie Grundy with 139 points
+Vice Elliot Yeo with 105 points 
+Tom Doedee                     -  115 - $123900 - DEF  
+Kade Simpson                   -  115 - $516300 - DEF  
+Jack Crisp                     -   71 - $455300 - DEF  
+Jayden Short                   -   67 - $319900 - DEF  
+Jake Lloyd                     -   71 - $479900 - DEF  
+Elliot Yeo                     -  105 - $561300 - DEF  
+Lachlan Murphy                 -   80 - $102400 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -  115 - $537300 - MID  
+Timothy Kelly                  -  117 - $117300 - MID  
+Stephen Coniglio               -  120 - $452400 - MID  
+Tom Mitchell                   -  148 - $653500 - MID  
+Jaeger O'Meara                 -   63 - $315800 - MID  
+Angus Brayshaw                 -    0 - $316700 - MID  
+Lachie Hunter                  -  114 - $452300 - MID  
+Jack Macrae                    -  142 - $587800 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   92 - $102400 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  139 - $534700 - RUC  
+Max Gawn                       -   97 - $503700 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  111 - $439100 - FWD  
+Tom Hawkins                    -   70 - $473700 - FWD  
+Luke Breust                    -   75 - $392200 - FWD  
+Bayley Fritsch                 -   60 - $117300 - FWD  
+Justin Westhoff                -  111 - $479600 - FWD  
+Josh Dunkley                   -   67 - $296900 - FWD  
+Jack Henry                     -   27 - $123900 - Sub-FWD (E)
+Jack Higgins                   -    0 - $130800 - Sub-FWD (E)
+
+-----------------
+Round 3
+Points 2322
+Team Value 9996000
+Remaining budget 4000
+-----------------
+-----------------
+Captain Brodie Grundy with 154 points
+Vice Elliot Yeo with 27 points 
+Tom Doedee                     -   85 - $123900 - DEF  
+Kade Simpson                   -   97 - $516300 - DEF  
+Jack Crisp                     -  128 - $455300 - DEF  
+Jayden Short                   -   64 - $319900 - DEF  
+Jake Lloyd                     -   85 - $479900 - DEF  
+Elliot Yeo                     -   27 - $561300 - DEF  
+Lachlan Murphy                 -   63 - $102400 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -   92 - $537300 - MID  
+Timothy Kelly                  -   90 - $117300 - MID  
+Stephen Coniglio               -  124 - $452400 - MID  
+Tom Mitchell                   -  149 - $653500 - MID  
+Jaeger O'Meara                 -  104 - $315800 - MID  
+Angus Brayshaw                 -    0 - $316700 - MID  
+Lachie Hunter                  -  142 - $452300 - MID  
+Jack Macrae                    -  131 - $587800 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   82 - $102400 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  154 - $534700 - RUC  
+Max Gawn                       -  117 - $503700 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   86 - $439100 - FWD  
+Tom Hawkins                    -  105 - $473700 - FWD  
+Luke Breust                    -   76 - $392200 - FWD  
+Bayley Fritsch                 -   56 - $117300 - FWD  
+Justin Westhoff                -   82 - $479600 - FWD  
+Josh Dunkley                   -   92 - $296900 - FWD  
+Jack Henry                     -   93 - $123900 - Sub-FWD (E)
+Jack Higgins                   -   63 - $130800 - Sub-FWD (E)
+
+-----------------
+Round 4
+Points 2249
+Team Value 10662700
+Remaining budget -662700
+-----------------
+-----------------
+Captain Brodie Grundy with 141 points
+Vice Elliot Yeo with 150 points 
+Tom Doedee                     -   57 - $219100 - DEF  
+Kade Simpson                   -   79 - $541000 - DEF  
+Jack Crisp                     -   78 - $462200 - DEF  
+Jayden Short                   -   86 - $327500 - DEF  
+Jake Lloyd                     -   89 - $475300 - DEF  
+Elliot Yeo                     -  150 - $519800 - DEF  
+Lachlan Murphy                 -    0 - $153600 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -   92 - $545200 - MID  
+Timothy Kelly                  -   89 - $231700 - MID  
+Stephen Coniglio               -  116 - $499100 - MID  
+Tom Mitchell                   -   90 - $687400 - MID  
+Jaeger O'Meara                 -  145 - $343200 - MID  
+Angus Brayshaw                 -   79 - $316700 - MID  
+Lachie Hunter                  -   69 - $492200 - MID  
+Jack Macrae                    -  103 - $607300 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   32 - $196100 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  141 - $566200 - RUC  
+Max Gawn                       -  112 - $527700 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   82 - $451600 - FWD  
+Tom Hawkins                    -   56 - $451500 - FWD  
+Luke Breust                    -  142 - $389900 - FWD  
+Bayley Fritsch                 -   58 - $164900 - FWD  
+Justin Westhoff                -   88 - $501100 - FWD  
+Josh Dunkley                   -  107 - $328100 - FWD  
+Jack Henry                     -   46 - $123900 - Sub-FWD (E)
+Jack Higgins                   -    0 - $130800 - Sub-FWD (E)
+
+-----------------
+Round 5
+Points 2196
+Team Value 11072900
+Remaining budget -1072900
+-----------------
+-----------------
+Captain Brodie Grundy with 113 points
+Vice Elliot Yeo with 114 points 
+Tom Doedee                     -  100 - $276800 - DEF  
+Kade Simpson                   -  142 - $529000 - DEF  
+Jack Crisp                     -   65 - $464800 - DEF  
+Jayden Short                   -   89 - $338600 - DEF  
+Jake Lloyd                     -   94 - $460000 - DEF  
+Elliot Yeo                     -  114 - $509300 - DEF  
+Lachlan Murphy                 -    0 - $153600 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -  151 - $535700 - MID  
+Timothy Kelly                  -   73 - $303600 - MID  
+Stephen Coniglio               -  116 - $529200 - MID  
+Tom Mitchell                   -   75 - $680000 - MID  
+Jaeger O'Meara                 -   56 - $392800 - MID  
+Angus Brayshaw                 -   68 - $316700 - MID  
+Lachie Hunter                  -    0 - $508300 - MID  
+Jack Macrae                    -   98 - $616000 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   88 - $237000 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  113 - $611900 - RUC  
+Max Gawn                       -  151 - $534900 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   81 - $457800 - FWD  
+Tom Hawkins                    -    0 - $436200 - FWD  
+Luke Breust                    -  122 - $418700 - FWD  
+Bayley Fritsch                 -    0 - $199600 - FWD  
+Justin Westhoff                -  106 - $495200 - FWD  
+Josh Dunkley                   -   42 - $361000 - FWD  
+Jack Henry                     -   48 - $165800 - Sub-FWD (E)0***
+Jack Higgins                   -   91 - $130800 - Sub-FWD (E)1***
+
+-----------------
+Round 6
+Points 2369
+Team Value 11337100
+Remaining budget -1337100
+-----------------
+-----------------
+Captain Brodie Grundy with 115 points
+Vice Elliot Yeo with 94 points 
+Tom Doedee                     -   83 - $312800 - DEF  
+Kade Simpson                   -   70 - $532700 - DEF  
+Jack Crisp                     -   89 - $464400 - DEF  
+Jayden Short                   -   93 - $356900 - DEF  
+Jake Lloyd                     -   90 - $459500 - DEF  
+Elliot Yeo                     -   94 - $506100 - DEF  
+Lachlan Murphy                 -    0 - $153600 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -  143 - $545400 - MID  
+Timothy Kelly                  -  106 - $337100 - MID  
+Stephen Coniglio               -   93 - $550000 - MID  
+Tom Mitchell                   -  126 - $642200 - MID  
+Jaeger O'Meara                 -   79 - $426600 - MID  
+Angus Brayshaw                 -   78 - $316700 - MID  
+Lachie Hunter                  -   98 - $508300 - MID  
+Jack Macrae                    -  141 - $603100 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   33 - $265500 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  115 - $634300 - RUC  
+Max Gawn                       -  168 - $565000 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  109 - $449700 - FWD  
+Tom Hawkins                    -   97 - $436200 - FWD  
+Luke Breust                    -   85 - $461400 - FWD  
+Bayley Fritsch                 -   90 - $199600 - FWD  
+Justin Westhoff                -  147 - $488900 - FWD  
+Josh Dunkley                   -   60 - $374400 - FWD  
+Jack Henry                     -   54 - $206300 - Sub-FWD (E)
+Jack Higgins                   -   71 - $130800 - Sub-FWD (E)
+
+-----------------
+Round 7
+Points 2280
+Team Value 11632100
+Remaining budget -1632100
+-----------------
+-----------------
+Captain Brodie Grundy with 110 points
+Vice Elliot Yeo with 111 points 
+Tom Doedee                     -   68 - $337300 - DEF  
+Kade Simpson                   -   97 - $521500 - DEF  
+Jack Crisp                     -   86 - $444900 - DEF  
+Jayden Short                   -   50 - $382200 - DEF  
+Jake Lloyd                     -   80 - $459700 - DEF  
+Elliot Yeo                     -  111 - $532000 - DEF  
+Lachlan Murphy                 -    0 - $153600 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -   94 - $573500 - MID  
+Timothy Kelly                  -  115 - $367600 - MID  
+Stephen Coniglio               -   64 - $549500 - MID  
+Tom Mitchell                   -  127 - $601900 - MID  
+Jaeger O'Meara                 -  106 - $438700 - MID  
+Angus Brayshaw                 -  100 - $333400 - MID  
+Lachie Hunter                  -  114 - $511700 - MID  
+Jack Macrae                    -  189 - $596100 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   70 - $263500 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  110 - $631100 - RUC  
+Max Gawn                       -  127 - $608000 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   90 - $452100 - FWD  
+Tom Hawkins                    -  108 - $435900 - FWD  
+Luke Breust                    -   90 - $495200 - FWD  
+Bayley Fritsch                 -   65 - $238000 - FWD  
+Justin Westhoff                -   85 - $511800 - FWD  
+Josh Dunkley                   -   94 - $368600 - FWD  
+Jack Henry                     -  114 - $217800 - Sub-FWD (E)
+Jack Higgins                   -   78 - $196900 - Sub-FWD (E)
+
+-----------------
+Round 8
+Points 2324
+Team Value 11856200
+Remaining budget -1856200
+-----------------
+-----------------
+Captain Brodie Grundy with 137 points
+Vice Elliot Yeo with 113 points 
+Tom Doedee                     -   56 - $359500 - DEF  
+Kade Simpson                   -  103 - $520400 - DEF  
+Jack Crisp                     -  119 - $433400 - DEF  
+Jayden Short                   -   83 - $383900 - DEF  
+Jake Lloyd                     -  130 - $455000 - DEF  
+Elliot Yeo                     -  113 - $532600 - DEF  
+Lachlan Murphy                 -    0 - $153600 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -  111 - $593900 - MID  
+Timothy Kelly                  -   91 - $401000 - MID  
+Stephen Coniglio               -  100 - $524800 - MID  
+Tom Mitchell                   -   72 - $587900 - MID  
+Jaeger O'Meara                 -   45 - $429300 - MID  
+Angus Brayshaw                 -   69 - $354500 - MID  
+Lachie Hunter                  -  102 - $500700 - MID  
+Jack Macrae                    -  156 - $628400 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   50 - $278500 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  137 - $613700 - RUC  
+Max Gawn                       -  148 - $645100 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  101 - $456600 - FWD  
+Tom Hawkins                    -    0 - $436200 - FWD  
+Luke Breust                    -   97 - $495800 - FWD  
+Bayley Fritsch                 -   98 - $269700 - FWD  
+Justin Westhoff                -  116 - $526300 - FWD  
+Josh Dunkley                   -  105 - $357800 - FWD  
+Jack Henry                     -   35 - $256300 - Sub-FWD (E)0***
+Jack Higgins                   -   51 - $251700 - Sub-FWD (E)
+
+-----------------
+Round 9
+Points 2348
+Team Value 12029300
+Remaining budget -2029300
+-----------------
+-----------------
+Captain Brodie Grundy with 109 points
+Vice Elliot Yeo with 113 points 
+Tom Doedee                     -   91 - $355300 - DEF  
+Kade Simpson                   -   72 - $501000 - DEF  
+Jack Crisp                     -  112 - $448100 - DEF  
+Jayden Short                   -   77 - $381600 - DEF  
+Jake Lloyd                     -  173 - $466600 - DEF  
+Elliot Yeo                     -  113 - $531300 - DEF  
+Lachlan Murphy                 -   51 - $153600 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -  152 - $589600 - MID  
+Timothy Kelly                  -   48 - $432500 - MID  
+Stephen Coniglio               -   89 - $498400 - MID  
+Tom Mitchell                   -  155 - $574900 - MID  
+Jaeger O'Meara                 -    0 - $416500 - MID  
+Angus Brayshaw                 -  105 - $369400 - MID  
+Lachie Hunter                  -   74 - $506300 - MID  
+Jack Macrae                    -  177 - $676400 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -  122 - $271900 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  109 - $610200 - RUC  
+Max Gawn                       -  121 - $669400 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   77 - $467800 - FWD  
+Tom Hawkins                    -   95 - $436200 - FWD  
+Luke Breust                    -   61 - $483900 - FWD  
+Bayley Fritsch                 -   87 - $310100 - FWD  
+Justin Westhoff                -   89 - $540200 - FWD  
+Josh Dunkley                   -   40 - $377200 - FWD  
+Jack Henry                     -   56 - $278000 - Sub-FWD (E)
+Jack Higgins                   -    0 - $273300 - Sub-FWD (E)
+
+-----------------
+Round 10
+Points 2368
+Team Value 12219100
+Remaining budget -2219100
+-----------------
+-----------------
+Captain Brodie Grundy with 152 points
+Vice Elliot Yeo with 100 points 
+Tom Doedee                     -  104 - $355500 - DEF  
+Kade Simpson                   -  140 - $487400 - DEF  
+Jack Crisp                     -   97 - $468800 - DEF  
+Jayden Short                   -   90 - $372500 - DEF  
+Jake Lloyd                     -  118 - $511700 - DEF  
+Elliot Yeo                     -  100 - $538500 - DEF  
+Lachlan Murphy                 -    0 - $198800 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -   97 - $590100 - MID  
+Timothy Kelly                  -   57 - $429200 - MID  
+Stephen Coniglio               -  138 - $477000 - MID  
+Tom Mitchell                   -  116 - $578000 - MID  
+Jaeger O'Meara                 -  108 - $416500 - MID  
+Angus Brayshaw                 -  130 - $392100 - MID  
+Lachie Hunter                  -   63 - $499300 - MID  
+Jack Macrae                    -  102 - $727100 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -    0 - $306600 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  152 - $604700 - RUC  
+Max Gawn                       -  114 - $665700 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  120 - $461300 - FWD  
+Tom Hawkins                    -   84 - $452500 - FWD  
+Luke Breust                    -   49 - $464100 - FWD  
+Bayley Fritsch                 -   87 - $338100 - FWD  
+Justin Westhoff                -    0 - $524000 - FWD  
+Josh Dunkley                   -    0 - $382200 - FWD  
+Jack Henry                     -   99 - $294500 - Sub-FWD (E)1***
+Jack Higgins                   -   51 - $273300 - Sub-FWD (E)0***
+
+-----------------
+Round 11
+Points 2221
+Team Value 12366100
+Remaining budget -2366100
+-----------------
+-----------------
+Captain Brodie Grundy with 134 points
+Vice Elliot Yeo with 70 points 
+Tom Doedee                     -   78 - $372300 - DEF  
+Kade Simpson                   -   82 - $497500 - DEF  
+Jack Crisp                     -  115 - $489700 - DEF  
+Jayden Short                   -  101 - $384300 - DEF  
+Jake Lloyd                     -   90 - $562700 - DEF  
+Elliot Yeo                     -   70 - $539700 - DEF  
+Lachlan Murphy                 -   26 - $198800 - Sub-DEF 
+Brody Mihocek                  -   97 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -   54 - $592700 - MID  
+Timothy Kelly                  -  130 - $401700 - MID  
+Stephen Coniglio               -   89 - $495200 - MID  
+Tom Mitchell                   -  135 - $576200 - MID  
+Jaeger O'Meara                 -   65 - $420500 - MID  
+Angus Brayshaw                 -   89 - $422900 - MID  
+Lachie Hunter                  -  117 - $472200 - MID  
+Jack Macrae                    -  105 - $726500 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   88 - $306600 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  134 - $620400 - RUC  
+Max Gawn                       -  139 - $658300 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   77 - $470800 - FWD  
+Tom Hawkins                    -  113 - $459400 - FWD  
+Luke Breust                    -   68 - $432100 - FWD  
+Bayley Fritsch                 -  111 - $369000 - FWD  
+Justin Westhoff                -   75 - $524000 - FWD  
+Josh Dunkley                   -    0 - $382200 - FWD  
+Jack Henry                     -   50 - $300400 - Sub-FWD (E)0***
+Jack Higgins                   -   67 - $280400 - Sub-FWD (E)
+
+-----------------
+Round 12
+Points 1467
+Team Value 12442000
+Remaining budget -2442000
+-----------------
+-----------------
+Captain Brodie Grundy with 98 points
+Vice Elliot Yeo with 0 points 
+Tom Doedee                     -   82 - $394500 - DEF  
+Kade Simpson                   -    0 - $495500 - DEF  
+Jack Crisp                     -  110 - $503200 - DEF  
+Jayden Short                   -  111 - $401000 - DEF  
+Jake Lloyd                     -  106 - $582100 - DEF  
+Elliot Yeo                     -    0 - $521400 - DEF  
+Lachlan Murphy                 -   42 - $208000 - Sub-DEF 
+Brody Mihocek                  -   36 - $102400 - Sub-DEF (E)0***
+Patrick Cripps                 -    0 - $569100 - MID  
+Timothy Kelly                  -   91 - $399000 - MID  
+Stephen Coniglio               -    0 - $503700 - MID  
+Tom Mitchell                   -    0 - $603200 - MID  
+Jaeger O'Meara                 -    0 - $405200 - MID  
+Angus Brayshaw                 -   60 - $454300 - MID  
+Lachie Hunter                  -    0 - $459100 - MID  
+Jack Macrae                    -    0 - $703300 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   57 - $340600 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -   98 - $630600 - RUC  
+Max Gawn                       -   76 - $648900 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  104 - $467000 - FWD  
+Tom Hawkins                    -  127 - $466700 - FWD  
+Luke Breust                    -    0 - $395700 - FWD  
+Bayley Fritsch                 -   85 - $397400 - FWD  
+Justin Westhoff                -   92 - $508600 - FWD  
+Josh Dunkley                   -    0 - $382200 - FWD  
+Jack Henry                     -   70 - $311400 - Sub-FWD (E)1***
+Jack Higgins                   -   64 - $280700 - Sub-FWD (E)0***
+
+-----------------
+Round 13
+Points 1731
+Team Value 12524300
+Remaining budget -2524300
+-----------------
+-----------------
+Captain Brodie Grundy with 0 points
+Vice Elliot Yeo with 144 points *
+Tom Doedee                     -   59 - $405600 - DEF  
+Kade Simpson                   -  123 - $495500 - DEF  
+Jack Crisp                     -    0 - $510800 - DEF  
+Jayden Short                   -   97 - $427300 - DEF  
+Jake Lloyd                     -  122 - $564800 - DEF  
+Elliot Yeo                     -  144 - $521400 - DEF  
+Lachlan Murphy                 -    0 - $204800 - Sub-DEF 
+Brody Mihocek                  -    0 - $102400 - Sub-DEF (E)
+Patrick Cripps                 -  109 - $569100 - MID  
+Timothy Kelly                  -   75 - $415100 - MID  
+Stephen Coniglio               -    0 - $503700 - MID  
+Tom Mitchell                   -  136 - $603200 - MID  
+Jaeger O'Meara                 -  114 - $405200 - MID  
+Angus Brayshaw                 -    0 - $455900 - MID  
+Lachie Hunter                  -   67 - $459100 - MID  
+Jack Macrae                    -   51 - $703300 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   84 - $367600 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -    0 - $631500 - RUC  
+Max Gawn                       -    0 - $620300 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -    0 - $475100 - FWD  
+Tom Hawkins                    -   77 - $485100 - FWD  
+Luke Breust                    -  124 - $395700 - FWD  
+Bayley Fritsch                 -    0 - $416200 - FWD  
+Justin Westhoff                -  114 - $485300 - FWD  
+Josh Dunkley                   -    0 - $382200 - FWD  
+Jack Henry                     -   35 - $324900 - Sub-FWD (E)0***
+Jack Higgins                   -   56 - $286000 - Sub-FWD (E)1***
+
+-----------------
+Round 14
+Points 1992
+Team Value 12476500
+Remaining budget -2476500
+-----------------
+-----------------
+Captain Brodie Grundy with 113 points
+Vice Elliot Yeo with 113 points 
+Tom Doedee                     -    0 - $394500 - DEF  
+Kade Simpson                   -  118 - $516600 - DEF  
+Jack Crisp                     -  117 - $510800 - DEF  
+Jayden Short                   -    0 - $450600 - DEF  
+Jake Lloyd                     -    0 - $555200 - DEF  
+Elliot Yeo                     -  113 - $521700 - DEF  
+Lachlan Murphy                 -    0 - $204800 - Sub-DEF 
+Brody Mihocek                  -   63 - $102400 - Sub-DEF (E)0***
+Patrick Cripps                 -  187 - $532400 - MID  
+Timothy Kelly                  -    0 - $435800 - MID  
+Stephen Coniglio               -   83 - $503700 - MID  
+Tom Mitchell                   -  106 - $614100 - MID  
+Jaeger O'Meara                 -  117 - $424600 - MID  
+Angus Brayshaw                 -   91 - $455900 - MID  
+Lachie Hunter                  -   87 - $446200 - MID  
+Jack Macrae                    -    0 - $629700 - MID  
+Jacob Dawson                   -   51 - $102400 - Sub-MID 
+Nick Holman                    -   45 - $371200 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  113 - $631500 - RUC  
+Max Gawn                       -  140 - $620300 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  115 - $475100 - FWD  
+Tom Hawkins                    -    0 - $496500 - FWD  
+Luke Breust                    -  131 - $397100 - FWD  
+Bayley Fritsch                 -   76 - $416200 - FWD  
+Justin Westhoff                -  106 - $480500 - FWD  
+Josh Dunkley                   -   71 - $382200 - FWD  
+Jack Henry                     -    0 - $306900 - Sub-FWD (E)
+Jack Higgins                   -    0 - $292800 - Sub-FWD (E)
+
+-----------------
+Round 15
+Points 2527
+Team Value 12587700
+Remaining budget -2587700
+-----------------
+-----------------
+Captain Brodie Grundy with 136 points
+Vice Elliot Yeo with 94 points 
+Tom Doedee                     -  109 - $394500 - DEF  
+Kade Simpson                   -  139 - $521100 - DEF  
+Jack Crisp                     -   92 - $525400 - DEF  
+Jayden Short                   -  105 - $450600 - DEF  
+Jake Lloyd                     -  136 - $555200 - DEF  
+Elliot Yeo                     -   94 - $526700 - DEF  
+Lachlan Murphy                 -    0 - $204800 - Sub-DEF 
+Brody Mihocek                  -   73 - $162200 - Sub-DEF (E)
+Patrick Cripps                 -  108 - $544800 - MID  
+Timothy Kelly                  -   95 - $435800 - MID  
+Stephen Coniglio               -  111 - $505900 - MID  
+Tom Mitchell                   -  181 - $616400 - MID  
+Jaeger O'Meara                 -   88 - $442000 - MID  
+Angus Brayshaw                 -  104 - $439800 - MID  
+Lachie Hunter                  -   96 - $446600 - MID  
+Jack Macrae                    -    0 - $629700 - MID  
+Jacob Dawson                   -   59 - $102400 - Sub-MID 
+Nick Holman                    -   85 - $353900 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  136 - $614800 - RUC  
+Max Gawn                       -  145 - $611100 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   52 - $478800 - FWD  
+Tom Hawkins                    -   99 - $496500 - FWD  
+Luke Breust                    -  109 - $433900 - FWD  
+Bayley Fritsch                 -   82 - $425100 - FWD  
+Justin Westhoff                -  120 - $489900 - FWD  
+Josh Dunkley                   -  105 - $375300 - FWD  
+Jack Henry                     -   77 - $306900 - Sub-FWD (E)
+Jack Higgins                   -  109 - $292800 - Sub-FWD (E)
+
+-----------------
+Round 16
+Points 2519
+Team Value 12768200
+Remaining budget -2768200
+-----------------
+-----------------
+Captain Brodie Grundy with 155 points
+Vice Elliot Yeo with 142 points 
+Tom Doedee                     -  120 - $398200 - DEF  
+Kade Simpson                   -    0 - $548200 - DEF  
+Jack Crisp                     -   95 - $524200 - DEF  
+Jayden Short                   -   86 - $467100 - DEF  
+Jake Lloyd                     -  141 - $565900 - DEF  
+Elliot Yeo                     -  142 - $539300 - DEF  
+Lachlan Murphy                 -    0 - $204800 - Sub-DEF 
+Brody Mihocek                  -   46 - $194600 - Sub-DEF (E)0***
+Patrick Cripps                 -   93 - $576100 - MID  
+Timothy Kelly                  -   76 - $433200 - MID  
+Stephen Coniglio               -  106 - $494000 - MID  
+Tom Mitchell                   -   79 - $636700 - MID  
+Jaeger O'Meara                 -  101 - $463500 - MID  
+Angus Brayshaw                 -  126 - $433500 - MID  
+Lachie Hunter                  -  107 - $436200 - MID  
+Jack Macrae                    -    0 - $629700 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   45 - $352700 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  155 - $601700 - RUC  
+Max Gawn                       -  151 - $605200 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  124 - $469000 - FWD  
+Tom Hawkins                    -  122 - $496100 - FWD  
+Luke Breust                    -  165 - $477600 - FWD  
+Bayley Fritsch                 -  102 - $417500 - FWD  
+Justin Westhoff                -   96 - $507700 - FWD  
+Josh Dunkley                   -   86 - $369100 - FWD  
+Jack Henry                     -   61 - $304300 - Sub-FWD (E)
+Jack Higgins                   -   87 - $314900 - Sub-FWD (E)
+
+-----------------
+Round 17
+Points 2354
+Team Value 12998000
+Remaining budget -2998000
+-----------------
+-----------------
+Captain Brodie Grundy with 99 points
+Vice Elliot Yeo with 94 points 
+Tom Doedee                     -   69 - $417800 - DEF  
+Kade Simpson                   -   81 - $548200 - DEF  
+Jack Crisp                     -  106 - $516500 - DEF  
+Jayden Short                   -   95 - $467900 - DEF  
+Jake Lloyd                     -   96 - $589100 - DEF  
+Elliot Yeo                     -   94 - $547600 - DEF  
+Lachlan Murphy                 -   74 - $204800 - Sub-DEF 
+Brody Mihocek                  -   81 - $222500 - Sub-DEF (E)
+Patrick Cripps                 -  156 - $591600 - MID  
+Timothy Kelly                  -  107 - $424600 - MID  
+Stephen Coniglio               -   90 - $492800 - MID  
+Tom Mitchell                   -  159 - $626000 - MID  
+Jaeger O'Meara                 -  124 - $473300 - MID  
+Angus Brayshaw                 -  116 - $458100 - MID  
+Lachie Hunter                  -   91 - $446300 - MID  
+Jack Macrae                    -  131 - $629700 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   74 - $334400 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -   99 - $617400 - RUC  
+Max Gawn                       -  131 - $634200 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  104 - $470600 - FWD  
+Tom Hawkins                    -  112 - $493400 - FWD  
+Luke Breust                    -   46 - $527600 - FWD  
+Bayley Fritsch                 -   72 - $419300 - FWD  
+Justin Westhoff                -   88 - $512600 - FWD  
+Josh Dunkley                   -   88 - $385100 - FWD  
+Jack Henry                     -   50 - $298300 - Sub-FWD (E)
+Jack Higgins                   -   36 - $341100 - Sub-FWD (E)
+
+-----------------
+Round 18
+Points 2365
+Team Value 13143300
+Remaining budget -3143300
+-----------------
+-----------------
+Captain Brodie Grundy with 113 points
+Vice Elliot Yeo with 128 points 
+Tom Doedee                     -   24 - $436900 - DEF  
+Kade Simpson                   -   80 - $549700 - DEF  
+Jack Crisp                     -   64 - $506500 - DEF  
+Jayden Short                   -  114 - $468100 - DEF  
+Jake Lloyd                     -  103 - $595000 - DEF  
+Elliot Yeo                     -  128 - $545700 - DEF  
+Lachlan Murphy                 -   28 - $212400 - Sub-DEF 
+Brody Mihocek                  -  101 - $251000 - Sub-DEF (E)
+Patrick Cripps                 -  122 - $589800 - MID  
+Timothy Kelly                  -  105 - $432900 - MID  
+Stephen Coniglio               -  143 - $495600 - MID  
+Tom Mitchell                   -  192 - $642400 - MID  
+Jaeger O'Meara                 -    0 - $484000 - MID  
+Angus Brayshaw                 -   87 - $487600 - MID  
+Lachie Hunter                  -   86 - $455900 - MID  
+Jack Macrae                    -   74 - $586400 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   87 - $334400 - Sub-MID (E)0***
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  113 - $623200 - RUC  
+Max Gawn                       -   93 - $651900 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  122 - $467300 - FWD  
+Tom Hawkins                    -  140 - $507500 - FWD  
+Luke Breust                    -  114 - $526700 - FWD  
+Bayley Fritsch                 -   74 - $419300 - FWD  
+Justin Westhoff                -   82 - $508600 - FWD  
+Josh Dunkley                   -  105 - $404600 - FWD  
+Jack Henry                     -   59 - $301000 - Sub-FWD (E)
+Jack Higgins                   -  108 - $351700 - Sub-FWD (E)
+
+-----------------
+Round 19
+Points 2480
+Team Value 13173000
+Remaining budget -3173000
+-----------------
+-----------------
+Captain Brodie Grundy with 157 points
+Vice Elliot Yeo with 128 points 
+Tom Doedee                     -    0 - $412600 - DEF  
+Kade Simpson                   -  125 - $533300 - DEF  
+Jack Crisp                     -   71 - $486300 - DEF  
+Jayden Short                   -   63 - $471700 - DEF  
+Jake Lloyd                     -  118 - $584000 - DEF  
+Elliot Yeo                     -  128 - $558800 - DEF  
+Lachlan Murphy                 -   68 - $218600 - Sub-DEF 
+Brody Mihocek                  -   49 - $284000 - Sub-DEF (E)0***
+Patrick Cripps                 -  173 - $594000 - MID  
+Timothy Kelly                  -   44 - $443000 - MID  
+Stephen Coniglio               -   79 - $511300 - MID  
+Tom Mitchell                   -  150 - $658500 - MID  
+Jaeger O'Meara                 -   85 - $484000 - MID  
+Angus Brayshaw                 -   80 - $501000 - MID  
+Lachie Hunter                  -   84 - $457900 - MID  
+Jack Macrae                    -  147 - $540500 - MID  
+Jacob Dawson                   -    0 - $102400 - Sub-MID 
+Nick Holman                    -   34 - $334900 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  157 - $616500 - RUC  
+Max Gawn                       -  130 - $641000 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   97 - $495600 - FWD  
+Tom Hawkins                    -  151 - $535500 - FWD  
+Luke Breust                    -  113 - $527700 - FWD  
+Bayley Fritsch                 -   47 - $415300 - FWD  
+Justin Westhoff                -   85 - $488300 - FWD  
+Josh Dunkley                   -  147 - $418400 - FWD  
+Jack Henry                     -   89 - $294500 - Sub-FWD (E)
+Jack Higgins                   -   91 - $358600 - Sub-FWD (E)
+
+-----------------
+Round 20
+Points 2548
+Team Value 13217400
+Remaining budget -3217400
+-----------------
+-----------------
+Captain Brodie Grundy with 167 points
+Vice Elliot Yeo with 125 points 
+Tom Doedee                     -  112 - $412600 - DEF  
+Kade Simpson                   -   81 - $515200 - DEF  
+Jack Crisp                     -  107 - $460900 - DEF  
+Jayden Short                   -   68 - $464100 - DEF  
+Jake Lloyd                     -  114 - $565800 - DEF  
+Elliot Yeo                     -  125 - $562200 - DEF  
+Lachlan Murphy                 -   28 - $234600 - Sub-DEF 
+Brody Mihocek                  -   39 - $309300 - Sub-DEF (E)
+Patrick Cripps                 -  122 - $632700 - MID  
+Timothy Kelly                  -  112 - $436100 - MID  
+Stephen Coniglio               -  157 - $510700 - MID  
+Tom Mitchell                   -  153 - $701800 - MID  
+Jaeger O'Meara                 -   99 - $490000 - MID  
+Angus Brayshaw                 -  115 - $490300 - MID  
+Lachie Hunter                  -  108 - $449200 - MID  
+Jack Macrae                    -  121 - $549700 - MID  
+Jacob Dawson                   -   54 - $102400 - Sub-MID 
+Nick Holman                    -   56 - $330400 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  167 - $612600 - RUC  
+Max Gawn                       -  112 - $623700 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -   87 - $504200 - FWD  
+Tom Hawkins                    -   59 - $568800 - FWD  
+Luke Breust                    -   79 - $505300 - FWD  
+Bayley Fritsch                 -   78 - $388000 - FWD  
+Justin Westhoff                -   73 - $468700 - FWD  
+Josh Dunkley                   -  132 - $455600 - FWD  
+Jack Henry                     -   62 - $302300 - Sub-FWD (E)
+Jack Higgins                   -   74 - $365400 - Sub-FWD (E)
+
+-----------------
+Round 21
+Points 2299
+Team Value 13280000
+Remaining budget -3280000
+-----------------
+-----------------
+Captain Brodie Grundy with 121 points
+Vice Elliot Yeo with 88 points 
+Tom Doedee                     -   67 - $390900 - DEF  
+Kade Simpson                   -   96 - $501400 - DEF  
+Jack Crisp                     -  111 - $442300 - DEF  
+Jayden Short                   -  101 - $446000 - DEF  
+Jake Lloyd                     -  117 - $559900 - DEF  
+Elliot Yeo                     -   88 - $577700 - DEF  
+Lachlan Murphy                 -   50 - $225600 - Sub-DEF 
+Brody Mihocek                  -   66 - $308700 - Sub-DEF (E)
+Patrick Cripps                 -  112 - $645000 - MID  
+Timothy Kelly                  -   69 - $432900 - MID  
+Stephen Coniglio               -   82 - $539400 - MID  
+Tom Mitchell                   -  102 - $729800 - MID  
+Jaeger O'Meara                 -   94 - $492800 - MID  
+Angus Brayshaw                 -  116 - $481500 - MID  
+Lachie Hunter                  -  155 - $449900 - MID  
+Jack Macrae                    -  153 - $551400 - MID  
+Jacob Dawson                   -    0 - $147200 - Sub-MID 
+Nick Holman                    -   75 - $318700 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  121 - $639200 - RUC  
+Max Gawn                       -   82 - $602000 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  104 - $502200 - FWD  
+Tom Hawkins                    -   85 - $568800 - FWD  
+Luke Breust                    -   75 - $503100 - FWD  
+Bayley Fritsch                 -   56 - $370400 - FWD  
+Justin Westhoff                -   86 - $447200 - FWD  
+Josh Dunkley                   -  106 - $501600 - FWD  
+Jack Henry                     -   63 - $312900 - Sub-FWD (E)
+Jack Higgins                   -   68 - $386700 - Sub-FWD (E)
+
+-----------------
+Round 22
+Points 2754
+Team Value 13190300
+Remaining budget -3190300
+-----------------
+-----------------
+Captain Brodie Grundy with 162 points
+Vice Elliot Yeo with 120 points 
+Tom Doedee                     -   79 - $374000 - DEF  
+Kade Simpson                   -  144 - $498200 - DEF  
+Jack Crisp                     -   83 - $449500 - DEF  
+Jayden Short                   -   94 - $426900 - DEF  
+Jake Lloyd                     -  124 - $561600 - DEF  
+Elliot Yeo                     -  120 - $571000 - DEF  
+Lachlan Murphy                 -    0 - $228700 - Sub-DEF 
+Brody Mihocek                  -   64 - $292600 - Sub-DEF (E)
+Patrick Cripps                 -  106 - $649100 - MID  
+Timothy Kelly                  -  155 - $414300 - MID  
+Stephen Coniglio               -   98 - $532900 - MID  
+Tom Mitchell                   -  108 - $709800 - MID  
+Jaeger O'Meara                 -   95 - $481400 - MID  
+Angus Brayshaw                 -  115 - $487800 - MID  
+Lachie Hunter                  -  146 - $480800 - MID  
+Jack Macrae                    -  110 - $587300 - MID  
+Jacob Dawson                   -    0 - $147200 - Sub-MID 
+Nick Holman                    -   48 - $304700 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  162 - $661800 - RUC  
+Max Gawn                       -  156 - $581000 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  125 - $492600 - FWD  
+Tom Hawkins                    -  136 - $544100 - FWD  
+Luke Breust                    -   76 - $484000 - FWD  
+Bayley Fritsch                 -   77 - $349400 - FWD  
+Justin Westhoff                -  126 - $433100 - FWD  
+Josh Dunkley                   -  157 - $535200 - FWD  
+Jack Henry                     -   61 - $322200 - Sub-FWD (E)
+Jack Higgins                   -   47 - $384300 - Sub-FWD (E)
+
+-----------------
+Round 23
+Points 2485
+Team Value 13220900
+Remaining budget -3220900
+-----------------
+-----------------
+Captain Brodie Grundy with 148 points
+Vice Elliot Yeo with 137 points 
+Tom Doedee                     -   67 - $385700 - DEF  
+Kade Simpson                   -  103 - $503800 - DEF  
+Jack Crisp                     -   96 - $459600 - DEF  
+Jayden Short                   -  103 - $426400 - DEF  
+Jake Lloyd                     -   76 - $564800 - DEF  
+Elliot Yeo                     -  137 - $561900 - DEF  
+Lachlan Murphy                 -   50 - $228700 - Sub-DEF 
+Brody Mihocek                  -   72 - $287200 - Sub-DEF (E)
+Patrick Cripps                 -  128 - $621700 - MID  
+Timothy Kelly                  -  107 - $449600 - MID  
+Stephen Coniglio               -  136 - $536100 - MID  
+Tom Mitchell                   -  136 - $676000 - MID  
+Jaeger O'Meara                 -   85 - $477000 - MID  
+Angus Brayshaw                 -   89 - $507300 - MID  
+Lachie Hunter                  -  128 - $530200 - MID  
+Jack Macrae                    -  116 - $596400 - MID  
+Jacob Dawson                   -   55 - $147200 - Sub-MID 
+Nick Holman                    -   65 - $300400 - Sub-MID (E)
+James Bell                     -    0 - $102400 - Sub-MID 
+Brodie Grundy                  -  148 - $679700 - RUC  
+Max Gawn                       -  108 - $576700 - RUC  
+Tom Jeffries                   -    0 - $102400 - Sub-RUC 
+Devon Smith                    -  103 - $497500 - FWD  
+Tom Hawkins                    -  127 - $519000 - FWD  
+Luke Breust                    -   81 - $453200 - FWD  
+Bayley Fritsch                 -   66 - $347000 - FWD  
+Justin Westhoff                -   90 - $440600 - FWD  
+Josh Dunkley                   -  107 - $563500 - FWD  
+Jack Henry                     -   63 - $316300 - Sub-FWD (E)
+Jack Higgins                   -   78 - $362600 - Sub-FWD (E)
