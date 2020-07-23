@@ -1,30 +1,6 @@
 from gurobipy import *
 from datetime import datetime
 
-"""
-To do:
-- add 2017 data reader
-- update byes for 2017 
-"""
-
-DEF = "BAC"
-SUB_DEF = "Sub-BAC"
-MID = "MID"
-SUB_MID = "Sub-MID"
-RUCK = "RUC"
-SUB_RUCK = "Sub-RUC"
-FOR = "FWD"
-SUB_FOR = "Sub-FWD"
-
-BUDGET_VARS = "budget_vars"
-PLAYER_VARS = "player_vars"
-TRADE_IN_VARS = "trade_in_vars"
-TRADE_OUT_VARS = "trade_out_vars"
-POS_VARS = "pos_vars"
-CAPTAIN_VARS = "captain_vars"
-SCORING_VARS = "scoring_vars"
-STARTING_BUDGET_VAR = "starting_budget"
-
 
 class MIP:
     def __init__(self, players, year=2017, num_rounds=22, type="SC"):
@@ -34,24 +10,7 @@ class MIP:
         self.variables = {}
         self.normal_mode = False
         self.model = Model("super_coach")
-        # self.min_amount = 51102
-        self.min_score = 53852
         self.num_rounds = num_rounds
-        self.scoring_positions = [DEF, MID, RUCK, FOR]
-        self.positions = [DEF, SUB_DEF, MID, SUB_MID, RUCK, SUB_RUCK, FOR, SUB_FOR]
-        if type == "SC":
-            self.capacities = [6, 2, 8, 3, 2, 1, 6, 2]
-            self.budget = 5500000
-        elif type == "DT":
-            self.capacities = [6, 2, 8, 2, 2, 2, 6, 2]
-            self.budget = 11000000
-        else:
-            self.capacities = []
-            self.budget = 0
-        if year == 2017:
-            self.bye_rounds = [12, 13, 14]
-        elif year == 2016:
-            self.bye_rounds = [13, 14, 15]
         else:
             self.bye_rounds = []
         self.trades_per_round = self.set_trades_per_round()
@@ -100,7 +59,6 @@ class MIP:
         self.model._scoring_positions = self.scoring_positions
         self.model._min_score = self.min_score
         self.model._num_rounds = self.num_rounds
-        # self.read_starting_solution()
         self.model.write("budget.mps")
 
     @staticmethod

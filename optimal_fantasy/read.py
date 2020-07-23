@@ -40,7 +40,7 @@ def read_data(data_file):
             for column in range(27, 50):
                 price.append(int(info[column]))
             players.append(
-                Player.Player(first_name, last_name, team, positions, points, price)
+                player.Player(first_name, last_name, team, positions, points, price)
             )
         print("There are {} players".format(len(players)))
         return players

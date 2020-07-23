@@ -1,15 +1,18 @@
 import click
 from read import read_data
 import datetime
-from mip.complete import MIP
+import json
+from mip_complete import build_model
 
 threads = 4
-print("You have specified {} threads".format(threads))
-data_file = "data2019-Final.csv"
+data_file = "data/data2019-SC.csv"
 round = 23
+with open("parameters.json", 'r') as f:
+    parameters = json.load(f)
 players = read_data(data_file)
 current_time = datetime.datetime.now().strftime("%Y-%m-%d--%H-%M-%S")
 output_file = current_time + "-SuperCoachOutput.txt"
-print(data_file)
-mip = MIP.MIP(players, 2017, round, "SC")
-mip.solve(threads, output_file)
+print(players)
+print(parameters)
+#mip = MIP.MIP(players, 2017, round, "SC")
+#mip.solve(threads, output_file)

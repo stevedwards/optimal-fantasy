@@ -1,0 +1,20 @@
+{
+    "scoring positions" : ["def", "mid", "fwd", "ruck"],
+    "bye rounds": [12, 13, 14]  ,
+    "starting budget" : 10000000,
+    "trades": {
+        "total": 30,
+        "default": 3,
+        "bye": 2
+    },
+    "capacities": {
+        "def": 6,
+        "sub def": 2,
+        "mid": 8,
+        "sub mid": 3,
+        "ruck": 2,
+        "sub ruck": 1,
+        "fwd": 6,
+        "sub fwd": 2 
+    }
+}
