@@ -32,8 +32,7 @@ def model(data):
                     # 1 iff player p ∈ P is a scoring vice captain in round r ∈ R
         "vice" :   (c_vice := {(p, r): binary(m) for p in P for r in R}),
                     # remaining budget available in round r ∈ R.
-        "slot":    (y := {(p,q,r,s): binary(m) \
-                    for q in Q_sub for p in P_[q] for s in S_[q] for r in R}),
+        "slot":    (y := {(p,q,r,s): binary(m) for q in Q_sub for p in P_[q] for s in S_[q] for r in R}),
                     # 1 iff player p ∈ P is in slot s ∈ S_q of pos q ∈ Q_sub_p in r ∈ R
         "emergency": (e := {(p,q): binary(m) for q in Q_sub for p in P_[q]})
     }

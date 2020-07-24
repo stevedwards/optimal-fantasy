@@ -1,6 +1,6 @@
 from mip import BINARY, CONTINUOUS
 
-def shorthand(data, description):
+def shorthand_notation(data, description):
     return {
         "P": data["players"],
         "R": data["rounds"],
@@ -13,3 +13,11 @@ def binary(m):
 
 def continuous(m):
     return m.add_var(var_type=CONTINUOUS)
+
+
+def declare_constraints(model, constraints):
+    for constraint_set in constraints.values():
+        for constraint in constraint_set:
+            model += constraint
+    return constraints
+    

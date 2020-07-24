@@ -25,7 +25,6 @@ def model(data):
     # Objective
     m.objective = minimize(β) # (13) Minimise the starting budget
     # Constraints
-    m.remove(constraints[11][0])
     for constraint_set in (additional_constraints := {
         # The number of trades across the season is less than or equal T.
         (14):   Σ(Ψ_[p, r]*(x_bar[p, r] + c[p, r]) for p in P for r in R[1:]) >= S_win + 1,
@@ -34,4 +33,6 @@ def model(data):
         }).values():
         for constraint in constraint_set:
             model += constraint
+    for constraint in constraints[11]:
+        m.remove(constraint)
     return m, variables, constraints.update(additional_constraints)
