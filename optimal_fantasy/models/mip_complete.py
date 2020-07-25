@@ -1,6 +1,6 @@
 from mip import Model, maximize, Constr, Var
 from mip import xsum as Σ 
-from ..notation import binary, continuous, declare_constraints
+from optimal_fantasy.notation import binary, continuous, declare_constraints
 from typing import  Set, Dict, List, Tuple, Hashable, Union
 
 
@@ -17,7 +17,7 @@ def model(data: Dict):
     C_: Dict[str, int]             = data["Number of players required in position q"]
     X_: Dict[int, int]             = data["Number of scoring positions in round r"]
     B : int                        = data["Starting budget for first round"]
-    Ψ_: Dict[Tuple[str, int], int] = data["Points scored by player p in round r "]
+    Ψ_: Dict[Tuple[str, int], int] = data["Points scored by player p in round r"]
     v_: Dict[Tuple[str, int], int] = data["Value of player p in round r"]
     # Variables
     variables: Dict[str, Dict[Tuple, Var]] = {
@@ -37,7 +37,7 @@ def model(data: Dict):
     # Objective
     m.objective = maximize(
         # (1) Maximise the number of points scored by the team throughout the season.
-        Σ(Σ(Ψ_[p, r]*(x_bar[p, r] + c[p, r]) for p in P)  for r in R)
+        Σ(Ψ_[p, r]*(x_bar[p, r] + c[p, r]) for p in P for r in R)
         ) 
     # Constriants 
     constraints: Dict[Hashable, List[Constr]] = declare_constraints(model, {
@@ -61,9 +61,9 @@ def model(data: Dict):
         # The number of scoring players are limited each round
         (10):  [Σ(x_bar[p, r] for p in P) <= X_[r]        for r in R],
         # Remaining budget after selection of initial team
-        (11):  [b[1] + Σ(v_[p,1]*x[p,q,1] for p in P for q in Q_[p]) == B],
+        (11):  [b[1] + Σ(v_[p, 1]*x[p,q,1] for p in P for q in Q_[p]) == B],
         # Budget consistency constraints links budget and trades
-        (12):  [b[r] == b[r-1] +  Σ(v_[p,r]*(t_out[p,r]-t_in[p,r]) 
+        (12):  [b[r] == b[r-1] +  Σ(v_[p, r]*(t_out[p,r]-t_in[p,r]) 
                                         for p in P)       for r in R[1:]]
         }
     )
