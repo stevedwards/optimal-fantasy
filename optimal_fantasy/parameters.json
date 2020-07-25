@@ -1,20 +1,26 @@
 {
-    "scoring positions" : ["def", "mid", "fwd", "ruck"],
-    "bye rounds": [12, 13, 14]  ,
+    "scoring positions" : ["DEF", "MID", "FWD", "RUCK"],
+    "substitute positions": ["SUB DEF", "SUB MID", "SUB FWD", "SUB RUCK"],
+    "rounds": 21,
+    "bye rounds": [12, 13, 14],
     "starting budget" : 10000000,
     "trades": {
         "total": 30,
-        "default": 3,
-        "bye": 2
+        "default": 2,
+        "bye": 3
+    },
+    "number of scoring positions":{
+        "default": 22,
+        "bye": 18
     },
     "capacities": {
-        "def": 6,
-        "sub def": 2,
-        "mid": 8,
-        "sub mid": 3,
-        "ruck": 2,
-        "sub ruck": 1,
-        "fwd": 6,
-        "sub fwd": 2 
+        "DEF": 6,
+        "SUB DEF": 2,
+        "MID": 8,
+        "SUB MID": 3,
+        "RUC": 2,
+        "SUB RUC": 1,
+        "FWD": 6,
+        "SUB FWD": 2 
     }
 }

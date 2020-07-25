@@ -1,24 +1,24 @@
 from mip import Model, maximize, Constr, Var
 from mip import xsum as Σ 
-from notation import binary, continuous, declare_constraints
-from notation import shorthand_notation as α
+from ..notation import binary, continuous, declare_constraints
 from typing import  Set, Dict, List, Tuple, Hashable, Union
+
 
 def model(data: Dict):
     m = Model("Complete")
     # Notation
-    P : Set[str]                   = α(data, "Set of players P")
-    Q : Set[str]                   = α(data, "Set of positions Q")
-    P_: Dict[str, Set[str]]        = α(data, "Subset of players P_q eligible in position q")
-    Q_: Dict[str, Set[str]]        = α(data, "Subset of positions Q_p eligible to player p")
-    R : List[int]                  = α(data, "Set of rounds R")
-    T : int                        = α(data, "Trades allowed per season")
-    T_: Dict[int, int]             = α(data, "Trades T_r allowed in round r")
-    C_: Dict[str, int]             = α(data, "Number of players required in position q")
-    X_: Dict[int, int]             = α(data, "Number of scoring positions in round r")
-    B : int                        = α(data, "Starting budget for first round")
-    Ψ_: Dict[Tuple[str, int], int] = α(data, "Points scored by player p in round r ")
-    v_: Dict[Tuple[str, int], int] = α(data, "Value of player p in round r")
+    P : Set[str]                   = data["Set of players P"]
+    Q : Set[str]                   = data["Set of positions Q"]
+    P_: Dict[str, Set[str]]        = data["Subset of players P_q eligible in position q"]
+    Q_: Dict[str, Set[str]]        = data["Subset of positions Q_p eligible to player p"]
+    R : List[int]                  = data["Set of rounds R"]
+    T : int                        = data["Trades allowed per season"]
+    T_: Dict[int, int]             = data["Trades T_r allowed in round r"]
+    C_: Dict[str, int]             = data["Number of players required in position q"]
+    X_: Dict[int, int]             = data["Number of scoring positions in round r"]
+    B : int                        = data["Starting budget for first round"]
+    Ψ_: Dict[Tuple[str, int], int] = data["Points scored by player p in round r "]
+    v_: Dict[Tuple[str, int], int] = data["Value of player p in round r"]
     # Variables
     variables: Dict[str, Dict[Tuple, Var]] = {
                     # 1 iff player p ∈ P is in position q ∈ Q_p in round r ∈ R.
@@ -37,7 +37,7 @@ def model(data: Dict):
     # Objective
     m.objective = maximize(
         # (1) Maximise the number of points scored by the team throughout the season.
-        Σ(Σ(Ψ_[p, r]*(x_bar[p, r] + c[p, r]) for p in P)   for r in R)
+        Σ(Σ(Ψ_[p, r]*(x_bar[p, r] + c[p, r]) for p in P)  for r in R)
         ) 
     # Constriants 
     constraints: Dict[Hashable, List[Constr]] = declare_constraints(model, {
