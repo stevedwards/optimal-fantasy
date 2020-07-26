@@ -7,20 +7,21 @@ from typing import  Set, Dict, List, Tuple, Hashable, Union
 def model(data: Dict):
     m = Model("Complete")
     # Notation
-    P : Set[str]                   = data["Set of players P"]
-    Q : Set[str]                   = data["Set of positions Q"]
-    P_: Dict[str, Set[str]]        = data["Subset of players P_q eligible in position q"]
-    Q_: Dict[str, Set[str]]        = data["Subset of positions Q_p eligible to player p"]
-    R : List[int]                  = data["Set of rounds R"]
-    T : int                        = data["Trades allowed per season"]
-    T_: Dict[int, int]             = data["Trades T_r allowed in round r"]
-    C_: Dict[str, int]             = data["Number of players required in position q"]
-    X_: Dict[int, int]             = data["Number of scoring positions in round r"]
-    B : int                        = data["Starting budget for first round"]
-    Ψ_: Dict[Tuple[str, int], int] = data["Points scored by player p in round r"]
-    v_: Dict[Tuple[str, int], int] = data["Value of player p in round r"]
+    P : Set[str]                   = data["players"]
+    Q : Set[str]                   = data["positions"]
+    P_: Dict[str, Set[str]]        = data["players eligible in position q"]
+    Q_: Dict[str, Set[str]]        = data["positions eligible to player p"]
+    Q_score: Set[str]              = data["scoring positions"]
+    R : List[int]                  = data["rounds"]
+    T : int                        = data["trade limit per season"]
+    T_: Dict[int, int]             = data["trade limit in round r"]
+    C_: Dict[str, int]             = data["players required in position q"]
+    X_: Dict[int, int]             = data["scoring positions in round r"]
+    B : int                        = data["starting budget"]
+    Ψ_: Dict[Tuple[str, int], int] = data["points scored by player p in round r"]
+    v_: Dict[Tuple[str, int], int] = data["value of player p in round r"]
     # Variables
-    variables: Dict[str, Dict[Tuple, Var]] = {
+    m.variables: Dict[str, Dict[Tuple, Var]] = {
                     # 1 iff player p ∈ P is in position q ∈ Q_p in round r ∈ R.
         "in team":  (x := {(p, q, r): binary(m)   for p in P for q in Q_[p] for r in R}),
                     # 1 iff the points of player p ∈ P in round r ∈ R count to the score.
@@ -40,7 +41,7 @@ def model(data: Dict):
         Σ(Ψ_[p, r]*(x_bar[p, r] + c[p, r]) for p in P for r in R)
         ) 
     # Constriants 
-    constraints: Dict[Hashable, List[Constr]] = declare_constraints(model, {
+    m.constraints: Dict[Hashable, List[Constr]] = declare_constraints(m, {
         # The number of trades across the season is less than or equal T.
         (2):   [Σ(t_in[p, r] for p in P for r in R[1:]) <= T],    
         # The number of trades per round is less than or requal to T_r.
@@ -55,9 +56,10 @@ def model(data: Dict):
         # Each position must contain a exact number of players.
         (7):   [Σ(x[p, q, r] for p in P_[q]) == C_[q]     for r in R for q in Q],
         # Each player can be in at most one position
-        (8):   [Σ(x[p,q,r] for q in P_[q]) <= 1           for r in R for p in P],
+        (8):   [Σ(x[p,q,r] for q in Q_[p]) <= 1           for r in R for p in P],
         # Player must be in scoring position to score
-        (9):   [x_bar[p, r] <= Σ(x[p,q,r] for q in P_[q]) for r in R for p in P],
+        (9):   [x_bar[p, r] <= Σ(x[p,q,r] 
+                    for q in (Q_[p] & Q_score))           for r in R for p in P],
         # The number of scoring players are limited each round
         (10):  [Σ(x_bar[p, r] for p in P) <= X_[r]        for r in R],
         # Remaining budget after selection of initial team
@@ -67,5 +69,5 @@ def model(data: Dict):
                                         for p in P)       for r in R[1:]]
         }
     )
-    return m, variables, constraints
+    return m
 

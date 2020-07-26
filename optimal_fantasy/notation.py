@@ -3,43 +3,45 @@ from mip import BINARY, CONTINUOUS
 
 def process_data(d, p):
     """Processing the data"""
-    rounds = p["trades"]["total"]
+    rounds = list(range(1, p["rounds"] + 1))
+    positions = set(p["scoring positions"]) | set(p["substitute positions"])
     return {
-        "Set of players P": set(d.keys()),
-        "Set of positions Q": set(p["scoring positions"]).update(
-            set(p["substitute positions"])
-        ),
-        "Subset of players P_q eligible in position q": {
-            q: set(player for player, x in d.items() if q in x["positions"])
-            for q in p["scoring positions"]
+        "players": set(d.keys()),
+        "positions": positions,
+        "scoring positions": set(p["scoring positions"]),
+        "players eligible in position q": {
+            q_: set(player for player, x in d.items() if q in x["positions"])
+            for q in p["scoring positions"] for q_ in [q, "SUB "+q]
         },
-        "Subset of positions Q_p eligible to player p": {
-            player: set(x["positions"]) for player, x in d.items()
+        "positions eligible to player p": {
+            player: set(x["positions"]) | set(["SUB " + y for y in x["positions"]])
+            for player, x in d.items()
         },
-        "Set of rounds R": list(range(1, p["rounds"] + 1)),
-        "Trades allowed per season": rounds,
-        "Trades T_r allowed in round r": {
+        "rounds": rounds,
+        "trade limit per season": p["trades"]["total"],
+        "trade limit in round r": {
             r: p["trades"]["bye"] if r in p["bye rounds"] else p["trades"]["default"]
-            for r in range(1, rounds + 1)
+            for r in rounds
         },
-        "Number of players required in position q": p["capacities"],
-        "Number of scoring positions in round r": {
+        "players required in position q": p["capacities"],
+        "scoring positions in round r": {
             r: p["number of scoring positions"]["bye"]
             if r in p["bye rounds"]
             else p["number of scoring positions"]["default"]
-            for r in range(1, rounds + 1)
+            for r in rounds
         },
-        "Starting budget for first round": p["starting budget"],
-        "Points scored by player p in round r": {
-            (player, r): x["points"].get(str(r), 0)
+        "starting budget": p["starting budget"],
+        "points scored by player p in round r": {
+            (player, r): x["points"][str(r)]
             for player, x in d.items()
-            for r in range(1, rounds + 1)
+            for r in rounds
         },
-        "Value of player p in round r": {
-            (player, r): x["price"].get(str(r), 0)
+        "value of player p in round r": {
+            (player, r): x["price"][str(r)]
             for player, x in d.items()
-            for r in range(1, rounds + 1)
+            for r in rounds
         },
+        "score to beat": p.get("score to beat", None)
     }
 
 
@@ -52,7 +54,11 @@ def continuous(m):
 
 
 def declare_constraints(model, constraints):
-    for constraint_set in constraints.values():
-        for constraint in constraint_set:
-            model += constraint
+    for name, constraint_set in constraints.items():
+        for nb, constraint in enumerate(constraint_set):
+            model += constraint, f"{name}-{nb}"
     return constraints
+
+def remove_constraint_set(model, name):
+    for nb in range(len(model.constraints[name])):
+        model.remove(model.constr_by_name(f"{name}-{nb}"))
