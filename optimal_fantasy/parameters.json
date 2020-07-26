@@ -3,6 +3,7 @@
     "substitute positions": ["SUB DEF", "SUB MID", "SUB FWD", "SUB RUC"],
     "rounds": null, 
     "bye rounds": [12, 13, 14],
+    "emergencies": 4,
     "starting budget" : 10000000,
     "trades": {
         "total": 30,

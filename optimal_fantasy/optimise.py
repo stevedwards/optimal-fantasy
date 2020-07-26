@@ -2,6 +2,7 @@ import click
 import datetime
 import json
 from optimal_fantasy.models.mip_budget import budget_model
+from optimal_fantasy.models.mip_ghost import ghost
 from optimal_fantasy.notation import process_data
 
 # current_time = datetime.datetime.now().strftime("%Y-%m-%d--%H-%M-%S")
@@ -18,5 +19,5 @@ if parameters["rounds"] is None:
     parameters["rounds"] = len(next(iter(player_data.values()))['price'])
 
 data = process_data(player_data, parameters)
-m = budget_model(data)
+m = ghost(data)
 m.optimize()

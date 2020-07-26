@@ -9,6 +9,7 @@ def process_data(d, p):
         "players": set(d.keys()),
         "positions": positions,
         "scoring positions": set(p["scoring positions"]),
+        "substitute positions": set(p["substitute positions"]),
         "players eligible in position q": {
             q_: set(player for player, x in d.items() if q in x["positions"])
             for q in p["scoring positions"] for q_ in [q, "SUB "+q]
@@ -41,7 +42,9 @@ def process_data(d, p):
             for player, x in d.items()
             for r in rounds
         },
-        "score to beat": p.get("score to beat", None)
+        "score to beat": p.get("score to beat", None),
+        "slots of position q": {q: range(p["capacities"][q]) for q in p["substitute positions"]},
+        "emergencies limit": p["emergencies"]
     }
 
 
@@ -60,5 +63,5 @@ def declare_constraints(model, constraints):
     return constraints
 
 def remove_constraint_set(model, name):
-    for nb in range(len(model.constraints[name])):
+    for nb in range(len(model.constraints.pop(name))):
         model.remove(model.constr_by_name(f"{name}-{nb}"))
