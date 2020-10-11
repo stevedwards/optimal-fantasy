@@ -1,10 +1,10 @@
 from mip import minimize
 from mip import xsum as Σ
 from optimal_fantasy.notation import binary, continuous, declare_constraints, remove_constraint_set
-from optimal_fantasy.models.mip_complete import model
+from optimal_fantasy.models import mip_complete
 
 
-def budget_model(data):
+def model(data):
     # Notation
     R  = data["rounds"]
     P  = data["players"]
@@ -13,7 +13,7 @@ def budget_model(data):
     v_ = data["value of player p in round r"]
     S_win = data["score to beat"]
     # Create Complete Model
-    m = model(data)
+    m = mip_complete.model(data)
     m.name = "Budget" 
     # Variables
     m.variables.update({

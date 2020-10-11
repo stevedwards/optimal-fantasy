@@ -2,7 +2,8 @@ from mip import Model, maximize, Constr, Var
 from mip import xsum as Σ 
 from optimal_fantasy.notation import binary, continuous, declare_constraints
 from typing import  Set, Dict, List, Tuple, Hashable, Union
-
+import json
+import itertools
 
 def model(data: Dict):
     m = Model("Complete")
@@ -71,3 +72,40 @@ def model(data: Dict):
     )
     return m
 
+
+def save_as_json(m, data, output_file):
+
+    import pprint
+
+    P = data['players']
+    Q = data["positions"]
+    ψ_ = data["points scored by player p in round r"]
+    v_ = data["value of player p in round r"]
+    R = data["rounds"]
+
+    results = {
+            "round": (round_results := {r : {
+                "captain": (skip := [p for p in P if m.variables["captain"][(p, r)].x > 0.5][0]) + f" [{ψ_[skip, r]}]",
+                "remaining budget": m.variables["budget"][r].x,
+                "traded in": [f"{p: <22}, ${v_[p, r]}" for p in P if m.variables["trade in"][p, r].x > 0.5], 
+                "traded out": [f"{p: <22}, ${v_[p, r]}" for p in P if m.variables["trade out"][p, r].x > 0.5],
+                "players": (players_in_team := {
+                    q: [f"{p: <22}, ${v_[p, r]}, ({ψ_[p, r]})" for p in data["players eligible in position q"][q] \
+                    if m.variables["in team"][p, q, r].x > 0.5] for q in Q
+                }),
+                "team value": sum(v_[p.split(",")[0].strip(), r] for temp in players_in_team.values() for p in temp),
+                "score": sum(ψ_[p, r] for p in P if m.variables["scoring"][p, r].x > 0.5) + ψ_[skip, r]
+                }
+                for r in R
+                }
+                ),
+            "summary": {
+                "total points": sum(round_results[r]["score"] for r in R), #pylint: disable=used-before-assignment
+                "trades used": sum(len(round_results[r]["traded in"]) for r in R) #pylint: disable=used-before-assignment
+            }
+        }
+
+    pprint.pprint(results)
+
+    with open(output_file, 'w') as f_out:
+        json.dump(results, f_out, indent=2)

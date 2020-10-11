@@ -1,8 +1,9 @@
 from mip import BINARY, CONTINUOUS
-
+from collections import defaultdict
 
 def process_data(d, p):
-    """Processing the data"""
+    """Processing the data (d) and parameters (p)"""
+
     rounds = list(range(1, p["rounds"] + 1))
     positions = set(p["scoring positions"]) | set(p["substitute positions"])
     return {
@@ -20,17 +21,13 @@ def process_data(d, p):
         },
         "rounds": rounds,
         "trade limit per season": p["trades"]["total"],
-        "trade limit in round r": {
-            r: p["trades"]["bye"] if r in p["bye rounds"] else p["trades"]["default"]
-            for r in rounds
-        },
+        "trade limit in round r": defaultdict(lambda: p["trades"]["default"], {
+            int(key): int(value) for key, value in p["trades"]["exceptions"].items()
+        }),
         "players required in position q": p["capacities"],
-        "scoring positions in round r": {
-            r: p["number of scoring positions"]["bye"]
-            if r in p["bye rounds"]
-            else p["number of scoring positions"]["default"]
-            for r in rounds
-        },
+        "scoring positions in round r": defaultdict(lambda: p["number of scoring positions"]["default"], {
+            int(key): int(value) for key, value in p["number of scoring positions"]["exceptions"].items()
+        }),
         "starting budget": p["starting budget"],
         "points scored by player p in round r": {
             (player, r): x["points"][str(r)]
@@ -54,7 +51,6 @@ def binary(m):
 
 def continuous(m):
     return m.add_var(var_type=CONTINUOUS)
-
 
 def declare_constraints(model, constraints):
     for name, constraint_set in constraints.items():

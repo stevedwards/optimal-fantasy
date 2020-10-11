@@ -1,0 +1,1122 @@
+{
+  "round": {
+    "1": {
+      "captain": "Jack Viney (MEL) [186]",
+      "remaining budget": 56200.0,
+      "traded in": [],
+      "traded out": [],
+      "players": {
+        "SUB DEF": [
+          "Bigoa Nyuon (RIC)     , $117300, (0)",
+          "Jack Lukosius (GCS)   , $274600, (57)"
+        ],
+        "RUC": [
+          "Sam Jacobs (GWS)      , $348400, (134)",
+          "Brodie Grundy (COL)   , $705900, (179)"
+        ],
+        "SUB RUC": [
+          "Marc Pittonet (CAR)   , $236200, (0)"
+        ],
+        "DEF": [
+          "Sam Docherty (CAR)    , $436100, (117)",
+          "Jordan Ridley (ESS)   , $322600, (100)",
+          "Nick Haynes (GWS)     , $474700, (114)",
+          "Aidan Corr (GWS)      , $223700, (60)",
+          "Jeremy Howe (COL)     , $431900, (156)",
+          "Brayden Maynard (COL) , $433900, (104)"
+        ],
+        "FWD": [
+          "Hugh Greenwood (GCS)  , $463100, (116)",
+          "Dan Butler (STK)      , $234600, (69)",
+          "Todd Marshall (PTA)   , $286200, (80)",
+          "Connor Rozee (PTA)    , $422100, (125)",
+          "Curtis Taylor (NTH)   , $123900, (79)",
+          "Christian Petracca (MEL), $441300, (105)"
+        ],
+        "SUB MID": [
+          "Laitham Vandermeer (WBD), $123900, (0)",
+          "Sam Simpson (GEE)     , $123900, (0)",
+          "Brandon Starcevich (BRL), $147700, (28)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $123900, (0)",
+          "Max King (STK)        , $123900, (42)"
+        ],
+        "MID": [
+          "Jarryd Lyons (BRL)    , $535400, (115)",
+          "Jy Simpkin (NTH)      , $383000, (131)",
+          "Matthew Rowell (GCS)  , $207300, (80)",
+          "Lachie Neale (BRL)    , $658500, (157)",
+          "Jack Steele (STK)     , $515900, (128)",
+          "Marlion Pickett (RIC) , $123900, (94)",
+          "Jack Viney (MEL)      , $439300, (186)",
+          "Touk Miller (GCS)     , $460700, (111)"
+        ]
+      },
+      "team value": 9943800,
+      "score": 2726
+    },
+    "2": {
+      "captain": "Max Gawn (MEL) [184]",
+      "remaining budget": 12900.0,
+      "traded in": [
+        "James Sicily (HAW)    , $497300",
+        "Max Gawn (MEL)        , $702900",
+        "Cameron Guthrie (GEE) , $406700",
+        "Andrew Brayshaw (FRE) , $386800",
+        "Tom Doedee (ADE)      , $273700"
+      ],
+      "traded out": [
+        "Sam Jacobs (GWS)      , $374500",
+        "Brodie Grundy (COL)   , $717800",
+        "Connor Rozee (PTA)    , $471600",
+        "Curtis Taylor (NTH)   , $173400",
+        "Jack Viney (MEL)      , $486800"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Tom Doedee (ADE)      , $273700, (39)",
+          "Aidan Corr (GWS)      , $241800, (65)"
+        ],
+        "RUC": [
+          "Max Gawn (MEL)        , $702900, (184)",
+          "Marc Pittonet (CAR)   , $236200, (134)"
+        ],
+        "SUB RUC": [
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "DEF": [
+          "James Sicily (HAW)    , $497300, (96)",
+          "Sam Docherty (CAR)    , $456200, (93)",
+          "Jordan Ridley (ESS)   , $354900, (94)",
+          "Nick Haynes (GWS)     , $488700, (97)",
+          "Jeremy Howe (COL)     , $485100, (126)",
+          "Brayden Maynard (COL) , $454000, (105)"
+        ],
+        "FWD": [
+          "Dan Butler (STK)      , $277400, (115)",
+          "Todd Marshall (PTA)   , $330600, (127)",
+          "Jy Simpkin (NTH)      , $423400, (104)",
+          "Andrew Brayshaw (FRE) , $386800, (88)",
+          "Jack Lukosius (GCS)   , $288500, (78)",
+          "Christian Petracca (MEL), $470000, (126)"
+        ],
+        "SUB MID": [
+          "Laitham Vandermeer (WBD), $123900, (42)",
+          "Sam Simpson (GEE)     , $123900, (0)",
+          "Marlion Pickett (RIC) , $161700, (37)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $123900, (0)",
+          "Max King (STK)        , $156300, (77)"
+        ],
+        "MID": [
+          "Jarryd Lyons (BRL)    , $537200, (92)",
+          "Matthew Rowell (GCS)  , $284900, (171)",
+          "Lachie Neale (BRL)    , $693800, (171)",
+          "Jack Steele (STK)     , $547100, (137)",
+          "Cameron Guthrie (GEE) , $406700, (83)",
+          "Brandon Starcevich (BRL), $179700, (99)",
+          "Hugh Greenwood (GCS)  , $479000, (95)",
+          "Touk Miller (GCS)     , $476200, (98)"
+        ]
+      },
+      "team value": 10779100,
+      "score": 2697
+    },
+    "3": {
+      "captain": "Lachie Neale (BRL) [166]",
+      "remaining budget": 40800.0,
+      "traded in": [
+        "Jarrod Berry (BRL)    , $444100",
+        "Tim English (WBD)     , $433000"
+      ],
+      "traded out": [
+        "Jeremy Howe (COL)     , $526800",
+        "Todd Marshall (PTA)   , $378200"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Jordan Ridley (ESS)   , $354900, (0)",
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "RUC": [
+          "Tim English (WBD)     , $433000, (120)",
+          "Marc Pittonet (CAR)   , $316800, (137)"
+        ],
+        "SUB RUC": [
+          "Max Gawn (MEL)        , $702900, (0)"
+        ],
+        "DEF": [
+          "James Sicily (HAW)    , $501700, (128)",
+          "Sam Docherty (CAR)    , $488300, (122)",
+          "Nick Haynes (GWS)     , $507500, (110)",
+          "Tom Doedee (ADE)      , $294400, (113)",
+          "Aidan Corr (GWS)      , $282100, (103)",
+          "Brayden Maynard (COL) , $487500, (125)"
+        ],
+        "FWD": [
+          "Hugh Greenwood (GCS)  , $502900, (116)",
+          "Dan Butler (STK)      , $344500, (124)",
+          "Jy Simpkin (NTH)      , $483100, (140)",
+          "Andrew Brayshaw (FRE) , $393600, (82)",
+          "Max King (STK)        , $192600, (51)",
+          "Jack Lukosius (GCS)   , $307400, (72)"
+        ],
+        "SUB MID": [
+          "Laitham Vandermeer (WBD), $145000, (53)",
+          "Sam Simpson (GEE)     , $123900, (0)",
+          "Marlion Pickett (RIC) , $201500, (50)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $123900, (0)",
+          "Christian Petracca (MEL), $470000, (0)"
+        ],
+        "MID": [
+          "Jarryd Lyons (BRL)    , $543600, (114)",
+          "Matthew Rowell (GCS)  , $387800, (141)",
+          "Lachie Neale (BRL)    , $737600, (166)",
+          "Jack Steele (STK)     , $558600, (73)",
+          "Cameron Guthrie (GEE) , $408300, (95)",
+          "Brandon Starcevich (BRL), $230500, (89)",
+          "Jarrod Berry (BRL)    , $444100, (127)",
+          "Touk Miller (GCS)     , $504400, (126)"
+        ]
+      },
+      "team value": 11589700,
+      "score": 2640
+    },
+    "4": {
+      "captain": "Sam Docherty (CAR) [185]",
+      "remaining budget": 26100.0,
+      "traded in": [
+        "Sam Menegola (GEE)    , $436200",
+        "Tom Hawkins (GEE)     , $455200"
+      ],
+      "traded out": [
+        "Marc Pittonet (CAR)   , $398400",
+        "Matthew Rowell (GCS)  , $478300"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Tom Doedee (ADE)      , $307900, (48)",
+          "Brandon Starcevich (BRL), $283800, (64)"
+        ],
+        "RUC": [
+          "Tim English (WBD)     , $470200, (145)",
+          "Max Gawn (MEL)        , $708500, (141)"
+        ],
+        "SUB RUC": [
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "DEF": [
+          "James Sicily (HAW)    , $523400, (114)",
+          "Sam Docherty (CAR)    , $541200, (185)",
+          "Jordan Ridley (ESS)   , $410100, (134)",
+          "Nick Haynes (GWS)     , $514300, (101)",
+          "Aidan Corr (GWS)      , $330200, (102)",
+          "Brayden Maynard (COL) , $517400, (118)"
+        ],
+        "FWD": [
+          "Dan Butler (STK)      , $415300, (118)",
+          "Jy Simpkin (NTH)      , $520900, (119)",
+          "Andrew Brayshaw (FRE) , $403000, (78)",
+          "Jack Lukosius (GCS)   , $340800, (102)",
+          "Christian Petracca (MEL), $491900, (89)",
+          "Tom Hawkins (GEE)     , $455200, (94)"
+        ],
+        "SUB MID": [
+          "Laitham Vandermeer (WBD), $176500, (59)",
+          "Sam Simpson (GEE)     , $123900, (0)",
+          "Marlion Pickett (RIC) , $201500, (0)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $123900, (0)",
+          "Max King (STK)        , $219400, (43)"
+        ],
+        "MID": [
+          "Jarryd Lyons (BRL)    , $547400, (116)",
+          "Lachie Neale (BRL)    , $763800, (147)",
+          "Jack Steele (STK)     , $559400, (114)",
+          "Sam Menegola (GEE)    , $436200, (108)",
+          "Cameron Guthrie (GEE) , $446100, (142)",
+          "Jarrod Berry (BRL)    , $488800, (150)",
+          "Hugh Greenwood (GCS)  , $494800, (61)",
+          "Touk Miller (GCS)     , $524100, (111)"
+        ]
+      },
+      "team value": 12457200,
+      "score": 2774
+    },
+    "5": {
+      "captain": "Max Gawn (MEL) [163]",
+      "remaining budget": 4900.0,
+      "traded in": [
+        "Luke Ryan (FRE)       , $471100",
+        "Jake Lloyd (SYD)      , $585700"
+      ],
+      "traded out": [
+        "Dan Butler (STK)      , $458000",
+        "Sam Docherty (CAR)    , $577600"
+      ],
+      "players": {
+        "SUB DEF": [
+          "James Sicily (HAW)    , $515300, (44)",
+          "Aidan Corr (GWS)      , $367300, (70)"
+        ],
+        "RUC": [
+          "Tim English (WBD)     , $522300, (125)",
+          "Max Gawn (MEL)        , $742500, (163)"
+        ],
+        "SUB RUC": [
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "DEF": [
+          "Jordan Ridley (ESS)   , $460000, (122)",
+          "Luke Ryan (FRE)       , $471100, (109)",
+          "Nick Haynes (GWS)     , $541100, (148)",
+          "Tom Doedee (ADE)      , $351700, (116)",
+          "Jake Lloyd (SYD)      , $585700, (132)",
+          "Brayden Maynard (COL) , $543400, (116)"
+        ],
+        "FWD": [
+          "Hugh Greenwood (GCS)  , $504300, (132)",
+          "Laitham Vandermeer (WBD), $225000, (99)",
+          "Andrew Brayshaw (FRE) , $434100, (144)",
+          "Max King (STK)        , $242800, (86)",
+          "Christian Petracca (MEL), $509700, (111)",
+          "Tom Hawkins (GEE)     , $490200, (152)"
+        ],
+        "SUB MID": [
+          "Sam Simpson (GEE)     , $123900, (0)",
+          "Brandon Starcevich (BRL), $295400, (38)",
+          "Marlion Pickett (RIC) , $201500, (0)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $123900, (0)",
+          "Jack Lukosius (GCS)   , $360400, (68)"
+        ],
+        "MID": [
+          "Jarryd Lyons (BRL)    , $563300, (124)",
+          "Jy Simpkin (NTH)      , $544700, (97)",
+          "Lachie Neale (BRL)    , $763300, (130)",
+          "Jack Steele (STK)     , $558400, (136)",
+          "Sam Menegola (GEE)    , $447600, (116)",
+          "Cameron Guthrie (GEE) , $468800, (73)",
+          "Jarrod Berry (BRL)    , $539700, (121)",
+          "Touk Miller (GCS)     , $530100, (81)"
+        ]
+      },
+      "team value": 13144800,
+      "score": 2796
+    },
+    "6": {
+      "captain": "Max Gawn (MEL) [153]",
+      "remaining budget": 75500.0,
+      "traded in": [
+        "Lachie Whitfield (GWS), $455200",
+        "Jack Macrae (WBD)     , $578900"
+      ],
+      "traded out": [
+        "Jarrod Berry (BRL)    , $558800",
+        "Brayden Maynard (COL) , $545900"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Aidan Corr (GWS)      , $384000, (80)",
+          "Brandon Starcevich (BRL), $277700, (31)"
+        ],
+        "RUC": [
+          "Tim English (WBD)     , $553500, (105)",
+          "Max Gawn (MEL)        , $753000, (153)"
+        ],
+        "SUB RUC": [
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "DEF": [
+          "James Sicily (HAW)    , $510400, (132)",
+          "Jordan Ridley (ESS)   , $503900, (111)",
+          "Luke Ryan (FRE)       , $479100, (105)",
+          "Nick Haynes (GWS)     , $561600, (113)",
+          "Tom Doedee (ADE)      , $380100, (105)",
+          "Jake Lloyd (SYD)      , $583000, (102)"
+        ],
+        "FWD": [
+          "Izak Rankine (GCS)    , $123900, (111)",
+          "Lachie Whitfield (GWS), $455200, (111)",
+          "Andrew Brayshaw (FRE) , $474400, (122)",
+          "Jack Lukosius (GCS)   , $389600, (106)",
+          "Christian Petracca (MEL), $512500, (104)",
+          "Tom Hawkins (GEE)     , $525800, (120)"
+        ],
+        "SUB MID": [
+          "Jarryd Lyons (BRL)    , $562900, (88)",
+          "Jack Steele (STK)     , $563300, (87)",
+          "Marlion Pickett (RIC) , $216400, (64)"
+        ],
+        "SUB FWD": [
+          "Laitham Vandermeer (WBD), $267700, (69)",
+          "Max King (STK)        , $264300, (61)"
+        ],
+        "MID": [
+          "Jy Simpkin (NTH)      , $555800, (127)",
+          "Lachie Neale (BRL)    , $747800, (134)",
+          "Sam Simpson (GEE)     , $123900, (112)",
+          "Sam Menegola (GEE)    , $498800, (152)",
+          "Cameron Guthrie (GEE) , $491200, (109)",
+          "Jack Macrae (WBD)     , $578900, (138)",
+          "Hugh Greenwood (GCS)  , $515300, (126)",
+          "Touk Miller (GCS)     , $541000, (142)"
+        ]
+      },
+      "team value": 13512300,
+      "score": 2793
+    },
+    "7": {
+      "captain": "Tim English (WBD) [204]",
+      "remaining budget": 2400.0,
+      "traded in": [
+        "Paddy Ryder (STK)     , $440000",
+        "Dustin Martin (RIC)   , $469100"
+      ],
+      "traded out": [
+        "Jy Simpkin (NTH)      , $533800",
+        "Laitham Vandermeer (WBD), $302200"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Nick Haynes (GWS)     , $562500, (75)",
+          "Jack Lukosius (GCS)   , $399500, (80)"
+        ],
+        "RUC": [
+          "Tim English (WBD)     , $600100, (204)",
+          "Max Gawn (MEL)        , $776700, (185)"
+        ],
+        "SUB RUC": [
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "DEF": [
+          "James Sicily (HAW)    , $520000, (149)",
+          "Jordan Ridley (ESS)   , $515200, (92)",
+          "Luke Ryan (FRE)       , $503100, (125)",
+          "Tom Doedee (ADE)      , $433000, (124)",
+          "Aidan Corr (GWS)      , $398100, (110)",
+          "Jake Lloyd (SYD)      , $582300, (111)"
+        ],
+        "FWD": [
+          "Hugh Greenwood (GCS)  , $557800, (144)",
+          "Paddy Ryder (STK)     , $440000, (128)",
+          "Izak Rankine (GCS)    , $195900, (102)",
+          "Lachie Whitfield (GWS), $470900, (102)",
+          "Andrew Brayshaw (FRE) , $512500, (102)",
+          "Christian Petracca (MEL), $543700, (160)"
+        ],
+        "SUB MID": [
+          "Sam Simpson (GEE)     , $185700, (78)",
+          "Sam Menegola (GEE)    , $522900, (83)",
+          "Brandon Starcevich (BRL), $257700, (51)"
+        ],
+        "SUB FWD": [
+          "Max King (STK)        , $284200, (55)",
+          "Tom Hawkins (GEE)     , $543300, (80)"
+        ],
+        "MID": [
+          "Dustin Martin (RIC)   , $469100, (100)",
+          "Jarryd Lyons (BRL)    , $559100, (114)",
+          "Lachie Neale (BRL)    , $706300, (87)",
+          "Jack Steele (STK)     , $585600, (162)",
+          "Cameron Guthrie (GEE) , $493900, (116)",
+          "Marlion Pickett (RIC) , $256500, (105)",
+          "Jack Macrae (WBD)     , $581500, (122)",
+          "Touk Miller (GCS)     , $542500, (102)"
+        ]
+      },
+      "team value": 14116900,
+      "score": 2950
+    },
+    "8": {
+      "captain": "Clayton Oliver (MEL) [177]",
+      "remaining budget": 102100.0,
+      "traded in": [
+        "Luke McDonald (NTH)   , $349300",
+        "Clayton Oliver (MEL)  , $594900"
+      ],
+      "traded out": [
+        "Tom Doedee (ADE)      , $433500",
+        "Tim English (WBD)     , $610400"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Aidan Corr (GWS)      , $409600, (74)",
+          "Jack Lukosius (GCS)   , $404900, (65)"
+        ],
+        "RUC": [
+          "Paddy Ryder (STK)     , $470500, (142)",
+          "Max Gawn (MEL)        , $790300, (157)"
+        ],
+        "SUB RUC": [
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "DEF": [
+          "James Sicily (HAW)    , $579500, (164)",
+          "Luke McDonald (NTH)   , $349300, (122)",
+          "Jordan Ridley (ESS)   , $519200, (114)",
+          "Luke Ryan (FRE)       , $524000, (118)",
+          "Nick Haynes (GWS)     , $553900, (129)",
+          "Jake Lloyd (SYD)      , $592000, (157)"
+        ],
+        "FWD": [
+          "Hugh Greenwood (GCS)  , $572600, (97)",
+          "Dustin Martin (RIC)   , $466200, (108)",
+          "Lachie Whitfield (GWS), $492000, (116)",
+          "Andrew Brayshaw (FRE) , $536300, (136)",
+          "Christian Petracca (MEL), $579100, (141)",
+          "Tom Hawkins (GEE)     , $526600, (87)"
+        ],
+        "SUB MID": [
+          "Sam Simpson (GEE)     , $242400, (49)",
+          "Brandon Starcevich (BRL), $247000, (48)",
+          "Marlion Pickett (RIC) , $290000, (60)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $263300, (56)",
+          "Max King (STK)        , $283400, (52)"
+        ],
+        "MID": [
+          "Jarryd Lyons (BRL)    , $565700, (147)",
+          "Lachie Neale (BRL)    , $684400, (152)",
+          "Jack Steele (STK)     , $591300, (114)",
+          "Sam Menegola (GEE)    , $538600, (113)",
+          "Cameron Guthrie (GEE) , $502700, (90)",
+          "Clayton Oliver (MEL)  , $594900, (177)",
+          "Jack Macrae (WBD)     , $617600, (169)",
+          "Touk Miller (GCS)     , $568900, (140)"
+        ]
+      },
+      "team value": 14473500,
+      "score": 3067
+    },
+    "9": {
+      "captain": "Dustin Martin (RIC) [184]",
+      "remaining budget": 263700.0,
+      "traded in": [
+        "Ollie Wines (PTA)     , $485000",
+        "Brodie Grundy (COL)   , $611500",
+        "Nic Naitanui (WCE)    , $487600"
+      ],
+      "traded out": [
+        "Max Gawn (MEL)        , $771300",
+        "Touk Miller (GCS)     , $561100",
+        "Aidan Corr (GWS)      , $413300"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Brandon Starcevich (BRL), $249000, (53)",
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "RUC": [
+          "Brodie Grundy (COL)   , $611500, (118)",
+          "Nic Naitanui (WCE)    , $487600, (146)"
+        ],
+        "SUB RUC": [
+          "Paddy Ryder (STK)     , $501600, (81)"
+        ],
+        "DEF": [
+          "James Sicily (HAW)    , $603900, (88)",
+          "Luke McDonald (NTH)   , $394300, (136)",
+          "Jordan Ridley (ESS)   , $512100, (88)",
+          "Luke Ryan (FRE)       , $551100, (131)",
+          "Nick Haynes (GWS)     , $546500, (110)",
+          "Jake Lloyd (SYD)      , $610000, (126)"
+        ],
+        "FWD": [
+          "Dustin Martin (RIC)   , $516600, (184)",
+          "Lachie Whitfield (GWS), $524000, (148)",
+          "Andrew Brayshaw (FRE) , $546800, (106)",
+          "Max King (STK)        , $297500, (94)",
+          "Jack Lukosius (GCS)   , $399200, (84)",
+          "Christian Petracca (MEL), $603100, (99)"
+        ],
+        "SUB MID": [
+          "Sam Simpson (GEE)     , $270000, (80)",
+          "Sam Menegola (GEE)    , $529500, (105)",
+          "Hugh Greenwood (GCS)  , $558400, (69)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $278800, (34)",
+          "Tom Hawkins (GEE)     , $496300, (79)"
+        ],
+        "MID": [
+          "Jarryd Lyons (BRL)    , $582600, (115)",
+          "Ollie Wines (PTA)     , $485000, (143)",
+          "Lachie Neale (BRL)    , $678800, (157)",
+          "Jack Steele (STK)     , $614300, (129)",
+          "Cameron Guthrie (GEE) , $514600, (121)",
+          "Clayton Oliver (MEL)  , $616100, (105)",
+          "Marlion Pickett (RIC) , $333400, (106)",
+          "Jack Macrae (WBD)     , $655000, (162)"
+        ]
+      },
+      "team value": 14684900,
+      "score": 2880
+    },
+    "10": {
+      "captain": "Clayton Oliver (MEL) [205]",
+      "remaining budget": 99400.0,
+      "traded in": [
+        "Zach Merrett (ESS)    , $537300",
+        "Robbie Gray (PTA)     , $384200",
+        "Rory Laird (ADE)      , $481700"
+      ],
+      "traded out": [
+        "James Sicily (HAW)    , $603900",
+        "Sam Simpson (GEE)     , $287000",
+        "Marlion Pickett (RIC) , $348000"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Luke Ryan (FRE)       , $551100, (0)",
+          "Jack Lukosius (GCS)   , $401200, (96)"
+        ],
+        "RUC": [
+          "Paddy Ryder (STK)     , $496700, (68)",
+          "Brodie Grundy (COL)   , $592700, (147)"
+        ],
+        "SUB RUC": [
+          "Nic Naitanui (WCE)    , $487600, (0)"
+        ],
+        "DEF": [
+          "Luke McDonald (NTH)   , $445400, (95)",
+          "Jordan Ridley (ESS)   , $509700, (101)",
+          "Nick Haynes (GWS)     , $551700, (102)",
+          "Jake Lloyd (SYD)      , $631500, (133)",
+          "Rory Laird (ADE)      , $481700, (120)",
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "FWD": [
+          "Robbie Gray (PTA)     , $384200, (106)",
+          "Hugh Greenwood (GCS)  , $526800, (99)",
+          "Dustin Martin (RIC)   , $557200, (111)",
+          "Lachie Whitfield (GWS), $559100, (131)",
+          "Christian Petracca (MEL), $607000, (132)",
+          "Tom Hawkins (GEE)     , $488400, (115)"
+        ],
+        "SUB MID": [
+          "Ollie Wines (PTA)     , $494200, (70)",
+          "Brandon Starcevich (BRL), $247200, (45)",
+          "Andrew Brayshaw (FRE) , $546800, (0)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $281100, (83)",
+          "Max King (STK)        , $309300, (60)"
+        ],
+        "MID": [
+          "Zach Merrett (ESS)    , $537300, (119)",
+          "Jarryd Lyons (BRL)    , $596800, (121)",
+          "Lachie Neale (BRL)    , $700600, (149)",
+          "Jack Steele (STK)     , $613000, (124)",
+          "Sam Menegola (GEE)    , $533100, (109)",
+          "Cameron Guthrie (GEE) , $525600, (124)",
+          "Clayton Oliver (MEL)  , $667400, (205)",
+          "Jack Macrae (WBD)     , $676900, (113)"
+        ]
+      },
+      "team value": 15118600,
+      "score": 2467
+    },
+    "11": {
+      "captain": "Ollie Wines (PTA) [189]",
+      "remaining budget": 120400.0,
+      "traded in": [
+        "Marcus Bontempelli (WBD), $530700"
+      ],
+      "traded out": [
+        "Nick Haynes (GWS)     , $551700"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Brandon Starcevich (BRL), $229500, (11)",
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "RUC": [
+          "Brodie Grundy (COL)   , $596100, (100)",
+          "Nic Naitanui (WCE)    , $516400, (129)"
+        ],
+        "SUB RUC": [
+          "Paddy Ryder (STK)     , $496700, (0)"
+        ],
+        "DEF": [
+          "Luke McDonald (NTH)   , $489800, (138)",
+          "Jordan Ridley (ESS)   , $512200, (124)",
+          "Luke Ryan (FRE)       , $558500, (100)",
+          "Jake Lloyd (SYD)      , $631500, (0)",
+          "Rory Laird (ADE)      , $529300, (185)",
+          "Jack Lukosius (GCS)   , $409300, (80)"
+        ],
+        "FWD": [
+          "Robbie Gray (PTA)     , $419300, (133)",
+          "Dustin Martin (RIC)   , $571800, (74)",
+          "Andrew Brayshaw (FRE) , $574400, (150)",
+          "Max King (STK)        , $314400, (44)",
+          "Christian Petracca (MEL), $618100, (160)",
+          "Tom Hawkins (GEE)     , $499700, (126)"
+        ],
+        "SUB MID": [
+          "Jack Steele (STK)     , $599500, (86)",
+          "Cameron Guthrie (GEE) , $525200, (71)",
+          "Hugh Greenwood (GCS)  , $498200, (85)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $295500, (85)",
+          "Lachie Whitfield (GWS), $559100, (0)"
+        ],
+        "MID": [
+          "Zach Merrett (ESS)    , $545700, (137)",
+          "Jarryd Lyons (BRL)    , $603000, (138)",
+          "Ollie Wines (PTA)     , $540300, (189)",
+          "Lachie Neale (BRL)    , $723000, (167)",
+          "Marcus Bontempelli (WBD), $530700, (138)",
+          "Sam Menegola (GEE)    , $553800, (154)",
+          "Clayton Oliver (MEL)  , $687100, (137)",
+          "Jack Macrae (WBD)     , $698900, (183)"
+        ]
+      },
+      "team value": 15444300,
+      "score": 2777
+    },
+    "12": {
+      "captain": "Tom Hawkins (GEE) [204]",
+      "remaining budget": 272200.0,
+      "traded in": [
+        "Steven May (MEL)      , $432100",
+        "Matt Crouch (ADE)     , $525300"
+      ],
+      "traded out": [
+        "Ollie Wines (PTA)     , $546300",
+        "Andrew Brayshaw (FRE) , $562900"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Jordan Ridley (ESS)   , $505000, (70)",
+          "Rory Laird (ADE)      , $555900, (77)"
+        ],
+        "RUC": [
+          "Brodie Grundy (COL)   , $610500, (148)",
+          "Nic Naitanui (WCE)    , $566800, (153)"
+        ],
+        "SUB RUC": [
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "DEF": [
+          "Luke McDonald (NTH)   , $513800, (119)",
+          "Luke Ryan (FRE)       , $582200, (162)",
+          "Steven May (MEL)      , $432100, (115)",
+          "Jake Lloyd (SYD)      , $636900, (137)",
+          "Brandon Starcevich (BRL), $236400, (99)",
+          "Jack Lukosius (GCS)   , $436800, (135)"
+        ],
+        "FWD": [
+          "Hugh Greenwood (GCS)  , $488200, (96)",
+          "Paddy Ryder (STK)     , $487500, (132)",
+          "Dustin Martin (RIC)   , $540700, (92)",
+          "Max King (STK)        , $319700, (99)",
+          "Christian Petracca (MEL), $636400, (125)",
+          "Tom Hawkins (GEE)     , $562100, (204)"
+        ],
+        "SUB MID": [
+          "Zach Merrett (ESS)    , $555100, (97)",
+          "Jack Steele (STK)     , $572000, (92)",
+          "Lachie Whitfield (GWS), $569400, (84)"
+        ],
+        "SUB FWD": [
+          "Robbie Gray (PTA)     , $438800, (60)",
+          "Izak Rankine (GCS)    , $313400, (52)"
+        ],
+        "MID": [
+          "Jarryd Lyons (BRL)    , $611200, (126)",
+          "Lachie Neale (BRL)    , $727700, (134)",
+          "Marcus Bontempelli (WBD), $587400, (199)",
+          "Sam Menegola (GEE)    , $567200, (104)",
+          "Cameron Guthrie (GEE) , $518100, (108)",
+          "Clayton Oliver (MEL)  , $714300, (137)",
+          "Jack Macrae (WBD)     , $694200, (118)",
+          "Matt Crouch (ADE)     , $525300, (132)"
+        ]
+      },
+      "team value": 15622400,
+      "score": 3078
+    },
+    "13": {
+      "captain": "Jack Steele (STK) [167]",
+      "remaining budget": 134900.0,
+      "traded in": [
+        "Andrew Gaff (WCE)     , $480000",
+        "Ben McEvoy (HAW)      , $459300"
+      ],
+      "traded out": [
+        "Paddy Ryder (STK)     , $479300",
+        "Max King (STK)        , $322700"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Brandon Starcevich (BRL), $256800, (79)",
+          "Bigoa Nyuon (RIC)     , $117300, (0)"
+        ],
+        "RUC": [
+          "Ben McEvoy (HAW)      , $459300, (147)",
+          "Nic Naitanui (WCE)    , $604600, (146)"
+        ],
+        "SUB RUC": [
+          "Brodie Grundy (COL)   , $594600, (85)"
+        ],
+        "DEF": [
+          "Luke McDonald (NTH)   , $553800, (144)",
+          "Jordan Ridley (ESS)   , $506700, (115)",
+          "Luke Ryan (FRE)       , $605300, (142)",
+          "Steven May (MEL)      , $432100, (110)",
+          "Jake Lloyd (SYD)      , $642200, (127)",
+          "Rory Laird (ADE)      , $576300, (120)"
+        ],
+        "FWD": [
+          "Robbie Gray (PTA)     , $450200, (98)",
+          "Hugh Greenwood (GCS)  , $486000, (109)",
+          "Dustin Martin (RIC)   , $534700, (147)",
+          "Lachie Whitfield (GWS), $558800, (105)",
+          "Jack Lukosius (GCS)   , $473500, (132)",
+          "Tom Hawkins (GEE)     , $602500, (101)"
+        ],
+        "SUB MID": [
+          "Jarryd Lyons (BRL)    , $589900, (57)",
+          "Lachie Neale (BRL)    , $698200, (72)",
+          "Sam Menegola (GEE)    , $572600, (97)"
+        ],
+        "SUB FWD": [
+          "Izak Rankine (GCS)    , $315900, (58)",
+          "Christian Petracca (MEL), $628700, (82)"
+        ],
+        "MID": [
+          "Zach Merrett (ESS)    , $573400, (143)",
+          "Jack Steele (STK)     , $571700, (167)",
+          "Marcus Bontempelli (WBD), $639100, (135)",
+          "Cameron Guthrie (GEE) , $522100, (143)",
+          "Clayton Oliver (MEL)  , $688800, (100)",
+          "Jack Macrae (WBD)     , $704200, (141)",
+          "Andrew Gaff (WCE)     , $480000, (107)",
+          "Matt Crouch (ADE)     , $546300, (133)"
+        ]
+      },
+      "team value": 15985600,
+      "score": 2979
+    },
+    "14": {
+      "captain": "Lachie Whitfield (GWS) [167]",
+      "remaining budget": 108500.0,
+      "traded in": [
+        "Blake Acres (FRE)     , $347400",
+        "Sam Walsh (CAR)       , $517300",
+        "Jack Crisp (COL)      , $454800"
+      ],
+      "traded out": [
+        "Bigoa Nyuon (RIC)     , $117300",
+        "Jack Lukosius (GCS)   , $502700",
+        "Jack Macrae (WBD)     , $673100"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Brandon Starcevich (BRL), $256800, (0)",
+          "Rory Laird (ADE)      , $576300, (0)"
+        ],
+        "RUC": [
+          "Ben McEvoy (HAW)      , $507700, (146)",
+          "Brodie Grundy (COL)   , $595000, (127)"
+        ],
+        "SUB RUC": [
+          "Nic Naitanui (WCE)    , $618600, (98)"
+        ],
+        "DEF": [
+          "Luke McDonald (NTH)   , $563700, (94)",
+          "Jordan Ridley (ESS)   , $486700, (76)",
+          "Luke Ryan (FRE)       , $607700, (67)",
+          "Steven May (MEL)      , $482000, (149)",
+          "Jack Crisp (COL)      , $454800, (125)",
+          "Jake Lloyd (SYD)      , $649700, (141)"
+        ],
+        "FWD": [
+          "Robbie Gray (PTA)     , $465700, (149)",
+          "Hugh Greenwood (GCS)  , $499000, (118)",
+          "Izak Rankine (GCS)    , $337600, (130)",
+          "Lachie Whitfield (GWS), $567000, (167)",
+          "Christian Petracca (MEL), $608500, (127)",
+          "Tom Hawkins (GEE)     , $622800, (105)"
+        ],
+        "SUB MID": [
+          "Jarryd Lyons (BRL)    , $589900, (0)",
+          "Lachie Neale (BRL)    , $698200, (0)",
+          "Matt Crouch (ADE)     , $546300, (0)"
+        ],
+        "SUB FWD": [
+          "Blake Acres (FRE)     , $347400, (0)",
+          "Dustin Martin (RIC)   , $540500, (97)"
+        ],
+        "MID": [
+          "Zach Merrett (ESS)    , $590500, (145)",
+          "Jack Steele (STK)     , $600300, (151)",
+          "Marcus Bontempelli (WBD), $670000, (122)",
+          "Sam Menegola (GEE)    , $538600, (68)",
+          "Cameron Guthrie (GEE) , $544000, (114)",
+          "Sam Walsh (CAR)       , $517300, (113)",
+          "Clayton Oliver (MEL)  , $668900, (134)",
+          "Andrew Gaff (WCE)     , $500300, (135)"
+        ]
+      },
+      "team value": 16251800,
+      "score": 2565
+    },
+    "15": {
+      "captain": "Matt Crouch (ADE) [162]",
+      "remaining budget": 28600.0,
+      "traded in": [
+        "Max Gawn (MEL)        , $668400",
+        "Luke Parker (SYD)     , $482000",
+        "Liam Ryan (WCE)       , $334000"
+      ],
+      "traded out": [
+        "Cameron Guthrie (GEE) , $544000",
+        "Ben McEvoy (HAW)      , $522900",
+        "Izak Rankine (GCS)    , $337600"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Luke McDonald (NTH)   , $563700, (0)",
+          "Brandon Starcevich (BRL), $295300, (63)"
+        ],
+        "RUC": [
+          "Max Gawn (MEL)        , $668400, (150)",
+          "Brodie Grundy (COL)   , $576800, (104)"
+        ],
+        "SUB RUC": [
+          "Nic Naitanui (WCE)    , $594100, (72)"
+        ],
+        "DEF": [
+          "Jordan Ridley (ESS)   , $502200, (136)",
+          "Luke Ryan (FRE)       , $584800, (104)",
+          "Steven May (MEL)      , $513800, (102)",
+          "Jack Crisp (COL)      , $491100, (134)",
+          "Jake Lloyd (SYD)      , $659100, (143)",
+          "Rory Laird (ADE)      , $555500, (102)"
+        ],
+        "FWD": [
+          "Robbie Gray (PTA)     , $465700, (0)",
+          "Blake Acres (FRE)     , $364100, (129)",
+          "Liam Ryan (WCE)       , $334000, (109)",
+          "Dustin Martin (RIC)   , $528800, (54)",
+          "Lachie Whitfield (GWS), $573500, (83)",
+          "Tom Hawkins (GEE)     , $622800, (0)"
+        ],
+        "SUB MID": [
+          "Jack Steele (STK)     , $600300, (0)",
+          "Marcus Bontempelli (WBD), $670000, (0)",
+          "Sam Menegola (GEE)    , $538600, (0)"
+        ],
+        "SUB FWD": [
+          "Hugh Greenwood (GCS)  , $499000, (0)",
+          "Christian Petracca (MEL), $562800, (53)"
+        ],
+        "MID": [
+          "Zach Merrett (ESS)    , $616500, (125)",
+          "Jarryd Lyons (BRL)    , $575300, (138)",
+          "Lachie Neale (BRL)    , $653900, (113)",
+          "Luke Parker (SYD)     , $482000, (127)",
+          "Sam Walsh (CAR)       , $531700, (132)",
+          "Clayton Oliver (MEL)  , $652300, (130)",
+          "Andrew Gaff (WCE)     , $525500, (115)",
+          "Matt Crouch (ADE)     , $590300, (162)"
+        ]
+      },
+      "team value": 16391900,
+      "score": 2417
+    },
+    "16": {
+      "captain": "Sam Menegola (GEE) [193]",
+      "remaining budget": 72200.0,
+      "traded in": [
+        "Patrick Dangerfield (GEE), $592500"
+      ],
+      "traded out": [
+        "Clayton Oliver (MEL)  , $636100"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Luke McDonald (NTH)   , $555300, (84)",
+          "Jack Crisp (COL)      , $491100, (0)"
+        ],
+        "RUC": [
+          "Max Gawn (MEL)        , $674000, (132)",
+          "Nic Naitanui (WCE)    , $594100, (0)"
+        ],
+        "SUB RUC": [
+          "Brodie Grundy (COL)   , $576800, (0)"
+        ],
+        "DEF": [
+          "Jordan Ridley (ESS)   , $493900, (73)",
+          "Luke Ryan (FRE)       , $554800, (115)",
+          "Steven May (MEL)      , $513000, (58)",
+          "Jake Lloyd (SYD)      , $658800, (114)",
+          "Brandon Starcevich (BRL), $282200, (7)",
+          "Rory Laird (ADE)      , $559000, (122)"
+        ],
+        "FWD": [
+          "Robbie Gray (PTA)     , $503500, (120)",
+          "Blake Acres (FRE)     , $386100, (113)",
+          "Hugh Greenwood (GCS)  , $522500, (128)",
+          "Lachie Whitfield (GWS), $584100, (121)",
+          "Christian Petracca (MEL), $553800, (140)",
+          "Tom Hawkins (GEE)     , $623800, (173)"
+        ],
+        "SUB MID": [
+          "Marcus Bontempelli (WBD), $651400, (106)",
+          "Luke Parker (SYD)     , $479500, (86)",
+          "Andrew Gaff (WCE)     , $522500, (61)"
+        ],
+        "SUB FWD": [
+          "Liam Ryan (WCE)       , $380000, (100)",
+          "Dustin Martin (RIC)   , $528800, (0)"
+        ],
+        "MID": [
+          "Zach Merrett (ESS)    , $625000, (122)",
+          "Patrick Dangerfield (GEE), $592500, (139)",
+          "Jarryd Lyons (BRL)    , $557700, (113)",
+          "Lachie Neale (BRL)    , $627600, (151)",
+          "Jack Steele (STK)     , $629500, (111)",
+          "Sam Menegola (GEE)    , $552900, (193)",
+          "Sam Walsh (CAR)       , $569000, (161)",
+          "Matt Crouch (ADE)     , $628300, (148)"
+        ]
+      },
+      "team value": 16471500,
+      "score": 2609
+    },
+    "17": {
+      "captain": "Tim Kelly (WCE) [180]",
+      "remaining budget": 328700.0,
+      "traded in": [
+        "Tim Kelly (WCE)       , $461400",
+        "Tom Liberatore (WBD)  , $488100"
+      ],
+      "traded out": [
+        "Sam Menegola (GEE)    , $567300",
+        "Matt Crouch (ADE)     , $638700"
+      ],
+      "players": {
+        "SUB DEF": [
+          "Luke Ryan (FRE)       , $548300, (104)",
+          "Brandon Starcevich (BRL), $282200, (0)"
+        ],
+        "RUC": [
+          "Max Gawn (MEL)        , $683600, (150)",
+          "Nic Naitanui (WCE)    , $572600, (143)"
+        ],
+        "SUB RUC": [
+          "Brodie Grundy (COL)   , $570100, (105)"
+        ],
+        "DEF": [
+          "Luke McDonald (NTH)   , $538100, (121)",
+          "Jordan Ridley (ESS)   , $506000, (119)",
+          "Steven May (MEL)      , $499700, (122)",
+          "Jack Crisp (COL)      , $534400, (138)",
+          "Jake Lloyd (SYD)      , $647800, (119)",
+          "Rory Laird (ADE)      , $567800, (136)"
+        ],
+        "FWD": [
+          "Robbie Gray (PTA)     , $525300, (87)",
+          "Blake Acres (FRE)     , $440800, (117)",
+          "Hugh Greenwood (GCS)  , $539700, (111)",
+          "Liam Ryan (WCE)       , $422600, (119)",
+          "Lachie Whitfield (GWS), $560100, (97)",
+          "Christian Petracca (MEL), $540500, (114)"
+        ],
+        "SUB MID": [
+          "Patrick Dangerfield (GEE), $582100, (66)",
+          "Lachie Neale (BRL)    , $599800, (55)",
+          "Sam Walsh (CAR)       , $582600, (84)"
+        ],
+        "SUB FWD": [
+          "Dustin Martin (RIC)   , $490900, (85)",
+          "Tom Hawkins (GEE)     , $597900, (43)"
+        ],
+        "MID": [
+          "Zach Merrett (ESS)    , $613800, (108)",
+          "Jarryd Lyons (BRL)    , $576900, (132)",
+          "Tom Liberatore (WBD)  , $488100, (132)",
+          "Jack Steele (STK)     , $629900, (122)",
+          "Marcus Bontempelli (WBD), $648100, (161)",
+          "Luke Parker (SYD)     , $504800, (136)",
+          "Tim Kelly (WCE)       , $461400, (180)",
+          "Andrew Gaff (WCE)     , $527800, (154)"
+        ]
+      },
+      "team value": 16283700,
+      "score": 2998
+    },
+    "18": {
+      "captain": "Tom Liberatore (WBD) [196]",
+      "remaining budget": 328700.0,
+      "traded in": [],
+      "traded out": [],
+      "players": {
+        "SUB DEF": [
+          "Jordan Ridley (ESS)   , $483100, (64)",
+          "Jack Crisp (COL)      , $552100, (93)"
+        ],
+        "RUC": [
+          "Brodie Grundy (COL)   , $563200, (122)",
+          "Nic Naitanui (WCE)    , $567700, (122)"
+        ],
+        "SUB RUC": [
+          "Max Gawn (MEL)        , $678000, (121)"
+        ],
+        "DEF": [
+          "Luke McDonald (NTH)   , $542000, (131)",
+          "Luke Ryan (FRE)       , $551200, (121)",
+          "Steven May (MEL)      , $499300, (123)",
+          "Jake Lloyd (SYD)      , $625400, (110)",
+          "Brandon Starcevich (BRL), $285900, (110)",
+          "Rory Laird (ADE)      , $577000, (108)"
+        ],
+        "FWD": [
+          "Robbie Gray (PTA)     , $522900, (107)",
+          "Hugh Greenwood (GCS)  , $541400, (93)",
+          "Liam Ryan (WCE)       , $450000, (100)",
+          "Dustin Martin (RIC)   , $471700, (116)",
+          "Lachie Whitfield (GWS), $558900, (120)",
+          "Christian Petracca (MEL), $564900, (130)"
+        ],
+        "SUB MID": [
+          "Jarryd Lyons (BRL)    , $558100, (63)",
+          "Marcus Bontempelli (WBD), $639200, (107)",
+          "Tim Kelly (WCE)       , $487200, (72)"
+        ],
+        "SUB FWD": [
+          "Blake Acres (FRE)     , $454500, (69)",
+          "Tom Hawkins (GEE)     , $558000, (57)"
+        ],
+        "MID": [
+          "Zach Merrett (ESS)    , $603100, (119)",
+          "Patrick Dangerfield (GEE), $591400, (170)",
+          "Tom Liberatore (WBD)  , $545200, (196)",
+          "Lachie Neale (BRL)    , $592400, (142)",
+          "Jack Steele (STK)     , $629500, (149)",
+          "Luke Parker (SYD)     , $523300, (127)",
+          "Sam Walsh (CAR)       , $586900, (119)",
+          "Andrew Gaff (WCE)     , $535300, (123)"
+        ]
+      },
+      "team value": 16338800,
+      "score": 2954
+    }
+  },
+  "summary": {
+    "total points": 50167,
+    "trades used": 37
+  }
+}

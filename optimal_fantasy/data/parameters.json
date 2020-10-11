@@ -1,0 +1,42 @@
+{
+    "scoring positions" : ["DEF", "MID", "FWD", "RUC"],
+    "substitute positions": ["SUB DEF", "SUB MID", "SUB FWD", "SUB RUC"],
+    "rounds": 18, 
+    "emergencies": 4,
+    "starting budget" : 10000000,
+    "trades": {
+        "total": 37,
+        "default": 2,
+        "exceptions": {
+            "2": 5,
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "14": 3,
+            "15": 3,
+            "16": 3
+        }
+    },
+    "number of scoring positions":{
+        "default": 22,
+        "exceptions": {
+            "10": 18,
+            "11": 18,
+            "14": 18, 
+            "15": 18,
+            "16": 18
+        }
+    },
+    "capacities": {
+        "DEF": 6,
+        "SUB DEF": 2,
+        "MID": 8,
+        "SUB MID": 3,
+        "RUC": 2,
+        "SUB RUC": 1,
+        "FWD": 6,
+        "SUB FWD": 2 
+    }, 
+    "score to beat": 40466
+}

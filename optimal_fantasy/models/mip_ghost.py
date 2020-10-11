@@ -3,7 +3,7 @@ from mip import xsum as Σ
 from optimal_fantasy.notation import declare_constraints, binary, continuous
 from typing import List
 
-def ghost(data):
+def model(data):
     m = Model("Ghost")
     # Notation
     P       = data["players"]
