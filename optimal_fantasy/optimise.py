@@ -9,8 +9,6 @@ from os import environ
 @click.argument("solve_type")
 def solve(solve_type):
 
-    print(environ["GUROBI_HOME"])
-
     assert solve_type in ["ghost", "budget", "complete"]
     with open("optimal_fantasy/data/parameters.json", "r") as f:
         parameters = json.load(f)
