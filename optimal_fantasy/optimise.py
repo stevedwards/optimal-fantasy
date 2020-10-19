@@ -3,15 +3,18 @@ import datetime
 import json
 from optimal_fantasy.models import mip_budget, mip_ghost, mip_complete
 from optimal_fantasy.notation import process_data
-
+from os import environ
 
 @click.command()
 @click.argument("solve_type")
 def solve(solve_type):
+
+    print(environ["GUROBI_HOME"])
+
     assert solve_type in ["ghost", "budget", "complete"]
-    with open("data/parameters.json", "r") as f:
+    with open("optimal_fantasy/data/parameters.json", "r") as f:
         parameters = json.load(f)
-    with open("data/player_data2020.json", "r") as f:
+    with open("optimal_fantasy/data/player_data2020.json", "r") as f:
         player_data = json.load(f)
     # Process data to get in arithmetic format
     data = process_data(player_data, parameters)
