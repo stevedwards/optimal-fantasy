@@ -7,7 +7,7 @@
 Currently not on PyPI but can be installed from the root directory in an editable state (hence the '-e') using the following command
 
 ``` #python
-pip install -e .
+pip3 install -e .
 ```
 
 ## Execution
