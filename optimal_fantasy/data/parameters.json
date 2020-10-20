@@ -21,6 +21,7 @@
     "number of scoring positions":{
         "default": 22,
         "exceptions": {
+            "3": 18,
             "10": 18,
             "11": 18,
             "14": 18, 

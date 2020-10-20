@@ -1,12 +1,14 @@
-from mip import Model, maximize, Constr, Var
-from mip import xsum as Σ 
+
 from optimal_fantasy.notation import binary, continuous, declare_constraints
 from typing import  Set, Dict, List, Tuple, Hashable, Union
 import json
 import itertools
+import gurobipy as gp
+from gurobipy import GRB
+Σ = gp.quicksum
 
 def model(data: Dict):
-    m = Model("Complete")
+    m = gp.Model(name="Complete")
     # Notation
     P : Set[str]                   = data["players"]
     Q : Set[str]                   = data["positions"]
@@ -22,27 +24,27 @@ def model(data: Dict):
     Ψ_: Dict[Tuple[str, int], int] = data["points scored by player p in round r"]
     v_: Dict[Tuple[str, int], int] = data["value of player p in round r"]
     # Variables
-    m.variables: Dict[str, Dict[Tuple, Var]] = {
+    m._variables: Dict[str, Dict[Tuple, "Var"]] = {
                     # 1 iff player p ∈ P is in position q ∈ Q_p in round r ∈ R.
-        "in team":  (x := {(p, q, r): binary(m)   for p in P for q in Q_[p] for r in R}),
+        "in team":  (x := m.addVars(((p, q) for p in P for q in Q_[p]), R, vtype=GRB.BINARY)),
                     # 1 iff the points of player p ∈ P in round r ∈ R count to the score.
-        "scoring":  (x_bar := {(p, r) : binary(m) for p in P for r in R}),
+        "scoring":  (x_bar := m.addVars(P, R, vtype=GRB.BINARY)),
                     # 1 iff player p ∈ P is captain in round r ∈ R.
-        "captain":  (c := {(p, r): binary(m)      for p in P for r in R}),
+        "captain":  (c := m.addVars(P, R, vtype=GRB.BINARY)),
                     # 1 iff player p ∈ P is traded into the team in round r ∈ R.
-        "trade in": (t_in := {(p, r): binary(m)   for p in P for r in R}),
+        "trade in": (t_in := m.addVars(P, R, vtype=GRB.BINARY)),
                     # 1 iff player p ∈ P is traded out of the team in round r ∈ R.
-        "trade out":(t_out := {(p, r): binary(m)  for p in P for r in R}),
+        "trade out":(t_out := m.addVars(P, R, vtype=GRB.BINARY)),
                     # remaining budget available in round r ∈ R.
-        "budget":   (b := {r: continuous(m)       for r in R})
+        "budget":   (b := m.addVars(R, vtype=GRB.CONTINUOUS))
     }
     # Objective
-    m.objective = maximize(
+    m.setObjective(
         # (1) Maximise the number of points scored by the team throughout the season.
-        Σ(Ψ_[p, r]*(x_bar[p, r] + c[p, r]) for p in P for r in R)
+        Σ(Ψ_[p, r]*(x_bar[p, r] + c[p, r]) for p in P for r in R),sense=GRB.MAXIMIZE,
         ) 
     # Constriants 
-    m.constraints: Dict[Hashable, List[Constr]] = declare_constraints(m, {
+    m._constraints: Dict[Hashable, List["Constr"]] = declare_constraints(m, {
         # The number of trades across the season is less than or equal T.
         (2):   [Σ(t_in[p, r] for p in P for r in R[1:]) <= T],    
         # The number of trades per round is less than or requal to T_r.
@@ -76,36 +78,32 @@ def model(data: Dict):
 def save_as_json(m, data, output_file):
 
     import pprint
-
     P = data['players']
     Q = data["positions"]
     ψ_ = data["points scored by player p in round r"]
     v_ = data["value of player p in round r"]
     R = data["rounds"]
-
     results = {
-            "round": (round_results := {r : {
-                "captain": (skip := [p for p in P if m.variables["captain"][(p, r)].x > 0.5][0]) + f" [{ψ_[skip, r]}]",
-                "remaining budget": m.variables["budget"][r].x,
-                "traded in": [f"{p: <22}, ${v_[p, r]}" for p in P if m.variables["trade in"][p, r].x > 0.5], 
-                "traded out": [f"{p: <22}, ${v_[p, r]}" for p in P if m.variables["trade out"][p, r].x > 0.5],
-                "players": (players_in_team := {
-                    q: [f"{p: <22}, ${v_[p, r]}, ({ψ_[p, r]})" for p in data["players eligible in position q"][q] \
-                    if m.variables["in team"][p, q, r].x > 0.5] for q in Q
-                }),
-                "team value": sum(v_[p.split(",")[0].strip(), r] for temp in players_in_team.values() for p in temp),
-                "score": sum(ψ_[p, r] for p in P if m.variables["scoring"][p, r].x > 0.5) + ψ_[skip, r]
-                }
-                for r in R
-                }
-                ),
-            "summary": {
-                "total points": sum(round_results[r]["score"] for r in R), #pylint: disable=used-before-assignment
-                "trades used": sum(len(round_results[r]["traded in"]) for r in R) #pylint: disable=used-before-assignment
+        "round": (round_results := {r : {
+            "captain": (skip := [p for p in P if m._variables["captain"][(p, r)].x > 0.5][0]) + f" ({ψ_[skip, r]})",
+            "remaining budget": m._variables["budget"][r].x,
+            "traded in": [f"{p: <22}, ${v_[p, r]}" for p in P if m._variables["trade in"][p, r].x > 0.5], 
+            "traded out": [f"{p: <22}, ${v_[p, r]}" for p in P if m._variables["trade out"][p, r].x > 0.5],
+            "players": (players_in_team := {
+                q: [f"{p: <22}, ${v_[p, r]}, ({ψ_[p, r]})" for p in data["players eligible in position q"][q] \
+                if m._variables["in team"][p, q, r].x > 0.5] for q in Q
+            }),
+            "team value": sum(v_[p.split(",")[0].strip(), r] for temp in players_in_team.values() for p in temp),
+            "score": sum(ψ_[p, r] for p in P if m._variables["scoring"][p, r].x > 0.5) + ψ_[skip, r]
             }
+            for r in R
+            }
+            ),
+        "summary": {
+            "total points": sum(round_results[r]["score"] for r in R), #pylint: disable=used-before-assignment
+            "trades used": sum(len(round_results[r]["traded in"]) for r in R) #pylint: disable=used-before-assignment
         }
-
+    }
     pprint.pprint(results)
-
     with open(output_file, 'w') as f_out:
         json.dump(results, f_out, indent=2)

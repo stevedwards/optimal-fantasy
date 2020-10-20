@@ -1,4 +1,4 @@
-from mip import BINARY, CONTINUOUS
+from gurobipy import GRB
 from collections import defaultdict
 
 def process_data(d, p):
@@ -46,16 +46,16 @@ def process_data(d, p):
 
 
 def binary(m):
-    return m.add_var(var_type=BINARY)
+    return m.addVar(vtype=GRB.BINARY)
 
 
 def continuous(m):
-    return m.add_var(var_type=CONTINUOUS)
+    return m.addVar(vtype=GRB.CONTINUOUS)
 
 def declare_constraints(model, constraints):
     for name, constraint_set in constraints.items():
         for nb, constraint in enumerate(constraint_set):
-            model += constraint, f"{name}-{nb}"
+            model.addConstr(constraint, name=f"{name}-{nb}")
     return constraints
 
 def remove_constraint_set(model, name):
